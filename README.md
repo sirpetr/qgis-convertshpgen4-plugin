@@ -22,7 +22,7 @@ as QGIS uses the standard Python installation.
 
 To add the plugin to QGIS 3.3 manually, you can follow these steps:
 
-1. Download plugin repository from GitHub: https://github.com/sirpetr/convert_shapefile_gen4.git
+1. Download plugin repository from GitHub: https://github.com/sirpetr/qgis-convertshpgen4-plugin.git
 2. Open QGIS 3.3x and go to ```Plugins``` -> ```Manage and Install Plugins``` -> ```Install from ZIP```
 and browse select ZIP file and ```Install Plugin```
 3. In ```Manage and Install Plugins``` -> ```Installed``` make sure if is checked John Deere Tools

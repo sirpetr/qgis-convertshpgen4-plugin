@@ -1,0 +1,27 @@
+{
+    "machine_name": "version1",
+    "file_XML_main": "base_element/MasterData.xml",
+    "fold": "gen4_scripts/base_element/version1",
+    "element": {
+        "Client": "gen4_scripts/base_element/version1/Client.xml",
+        "Crop": "gen4_scripts/base_element/version1/Crop.xml",
+        "Farm": "gen4_scripts/base_element/version1/Farm.xml",
+        "FertilizerType": "gen4_scripts/base_element/version1/FertilizerType.xml",
+        "Field": "gen4_scripts/base_element/version1/Field.xml",
+        "FileSchemaVersion": "gen4_scripts/base_element/version1/FileSchemaVersion.xml",
+        "FlagCategory": "gen4_scripts/base_element/version1/FlagCategory.xml",
+        "Guidance": "gen4_scripts/base_element/version1/Guidance.xml",
+        "OperationalBoundary": "gen4_scripts/base_element/version1/OperationalBoundary.xml",
+        "ChemicalType": "gen4_scripts/base_element/version1/ChemicalType.xml",
+        "Inputs": "gen4_scripts/base_element/version1/Inputs.xml",
+        "Machine": "gen4_scripts/base_element/version1/Machine.xml",
+        "MachineModel": "gen4_scripts/base_element/version1/MachineModel.xml",
+        "MachineType": "gen4_scripts/base_element/version1/MachineType.xml",
+        "MasterData": "gen4_scripts/base_element/version1/MasterData.xml",
+        "SetupFile": "gen4_scripts/base_element/version1/SetupFile.xml",
+        "SourceApp": "gen4_scripts/base_element/version1/SourceApp.xml",
+        "SourceInformation": "gen4_scripts/base_element/version1/SourceInformation.xml",
+        "UserDefinedType": "gen4_scripts/base_element/version1/UserDefinedType.xml",
+        "WorkDescriptor": "gen4_scripts/base_element/version1/WorkDescriptor.xml"
+    }
+}

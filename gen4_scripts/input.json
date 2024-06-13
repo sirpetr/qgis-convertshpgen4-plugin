@@ -1,0 +1,11 @@
+{
+    "path_home": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin",
+    "json_metadat": "gen4_scripts/base_element/version1/metadata.json",
+    "shpFields": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin/data/boundary_polygon.shp",
+    "shpGuide": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin/data/navigation_line.shp",
+    "clientName": "Farm-Rostenice",
+    "farmColumn": "STREDISKO",
+    "fieldColumn": "PARCELA",
+    "cropColumn": "PLODINA",
+    "lineColumn": "ID_str"
+}

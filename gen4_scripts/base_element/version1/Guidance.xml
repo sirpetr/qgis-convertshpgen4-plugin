@@ -1,0 +1,777 @@
+<Setup><Guidance>
+   <Tracks>
+    <ABCurve LastModifiedDate="2022-12-14T15:59:58Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="pro jardu" TaggedEntity="{e099172d-d0b1-4232-9605-605625eff1ec}" CreationDate="2022-12-14T15:59:58Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{4bc951e6-38ac-4413-a10d-705d75afc64f}">
+     <Geometry>
+      <FilenameWithExtension>ABCurve{4bc951e6-38ac-4413-a10d-705d75afc64f}.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.005313709374988" Longitude="16.686897938671866" />
+     <BPoint Latitude="49.007285111081544" Longitude="16.687819889083784" />
+     <Heading SourceUnit="arcdeg" Value="17.1016191598279" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2022-12-14T16:01:40Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="pro jardu1" TaggedEntity="{e099172d-d0b1-4232-9605-605625eff1ec}" CreationDate="2022-12-14T16:01:39Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{1c393ca8-f7ab-4e1e-a97a-b33cd11b0e01}">
+     <Geometry>
+      <FilenameWithExtension>ABCurve{1c393ca8-f7ab-4e1e-a97a-b33cd11b0e01}.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.00680317304689" Longitude="16.687022208593753" />
+     <BPoint Latitude="49.004630522444046" Longitude="16.686457988886012" />
+     <Heading SourceUnit="arcdeg" Value="189.6950346106751" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABLine LastModifiedDate="2021-04-09T08:26:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" CreationDate="2021-04-09T08:26:18Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{7a83ba72-203d-4a04-a759-b6f2f7d45002}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.8425535000000" Longitude="16.8820628500000" />
+     <BPoint Latitude="48.8427504500000" Longitude="16.8822181200000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="27.490966796875" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-09-24T19:02:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="fenix" TaggedEntity="{ee47467f-efdc-392b-0243-1b31641ad660}" CreationDate="2021-09-24T19:02:18Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{51da8b08-0a7b-47cd-b0d2-db5c4eb94489}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9909979200000" Longitude="16.7046628800000" />
+     <BPoint Latitude="48.9879386400000" Longitude="16.6991330300000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="229.9472045898438" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-09-25T12:29:24Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{835fa44e-8b1c-46a3-9ecc-71c97d41fc7f}" CreationDate="2021-09-25T12:29:24Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{cb25fbc7-1b21-488c-9093-d0225c2ffc19}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0118970800000" Longitude="16.6828081000000" />
+     <BPoint Latitude="49.0108120100000" Longitude="16.6829697100000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="174.4044036865234" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-09-25T15:07:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 2" TaggedEntity="{835fa44e-8b1c-46a3-9ecc-71c97d41fc7f}" CreationDate="2021-09-25T15:07:47Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{6214c180-cdd7-4bbe-a0c8-014952f4fede}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0057633300000" Longitude="16.6813434900000" />
+     <BPoint Latitude="49.0056756800000" Longitude="16.6801550300000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="263.6036682128906" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-09-26T15:40:03Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{ee47467f-efdc-392b-0243-1b31641ad660}" CreationDate="2021-09-26T15:40:03Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{85c365f9-b37a-4741-a325-726edd6a194b}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9905198699219" Longitude="16.7042453023437" />
+     <BPoint Latitude="48.9904301722656" Longitude="16.7040837148437" />
+     <SaveMethod Value="dtiABLineMethodABFill" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="229.8520930979293" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-09-26T15:40:51Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="seti" TaggedEntity="{ee47467f-efdc-392b-0243-1b31641ad660}" CreationDate="2021-09-26T15:40:51Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{28321129-3242-4507-b351-5efd4879f16a}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9900479400000" Longitude="16.7033939000000" />
+     <BPoint Latitude="48.9900303168776" Longitude="16.7033619860045" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="230" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-09-28T13:46:06Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="seti" TaggedEntity="{c0885f85-24ae-4862-b640-e775b0b64a5d}" CreationDate="2021-09-28T13:46:06Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{fe528421-7b89-460a-92bf-7af2c948ff1d}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0062661000000" Longitude="16.6935271700000" />
+     <BPoint Latitude="49.0054410600000" Longitude="16.7002815800000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="100.5183334350586" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-10-01T15:24:32Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="seti1" TaggedEntity="{6d5ae1ea-9b2e-b2fa-939e-a0d4838f122f}" CreationDate="2021-10-01T15:24:32Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{11d72a4a-ceca-4c79-8882-d00caefd24df}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9791726700000" Longitude="16.6838908000000" />
+     <BPoint Latitude="48.9791491692470" Longitude="16.6839122522103" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="149" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-10-02T13:53:02Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="seti" TaggedEntity="{8a1379f4-9ae1-78fe-6653-c8f7b8f621ba}" CreationDate="2021-10-02T13:53:02Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{7bb9603e-ac48-4efa-863f-150ab4ce71b9}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9573064200000" Longitude="16.6726793700000" />
+     <BPoint Latitude="48.9572952685552" Longitude="16.6726413359151" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="246" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-10-05T15:00:35Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="seti" TaggedEntity="{9d6478dc-9636-c4ee-fbb1-ee770290657d}" CreationDate="2021-10-05T15:00:35Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{cd625a7d-f8b4-4744-b6ae-d4c875f8dff9}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9450667900000" Longitude="16.6652817500000" />
+     <BPoint Latitude="48.9450526692391" Longitude="16.6652460718628" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="239" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-10-11T17:15:40Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="fenix" TaggedEntity="{74aa4eb0-7646-2afa-f15d-69d736352a21}" CreationDate="2021-10-11T17:15:40Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{36f8d7b1-ac66-4d8e-8185-4a676b3c1ba6}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9663800800000" Longitude="16.6710320100000" />
+     <BPoint Latitude="48.9663632005174" Longitude="16.6710648235892" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="128" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-10-12T16:27:55Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{7f6e7efd-5caf-4615-8339-4025eb52fbbc}" CreationDate="2021-10-12T16:27:55Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{ebc5206f-18f4-4c13-85fc-cf8b25b478f7}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9910007400000" Longitude="16.6854883500000" />
+     <BPoint Latitude="48.9913373300000" Longitude="16.6889942500000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="81.69974517822266" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-10-16T10:04:43Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{90d5c009-3c73-3094-865c-ecf787007c36}" CreationDate="2021-10-16T10:04:43Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{8c0fe0f1-842c-4655-b19e-ed6541736c85}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9914350792968" Longitude="16.6865781367187" />
+     <BPoint Latitude="48.9914471816406" Longitude="16.6867271175781" />
+     <SaveMethod Value="dtiABLineMethodABFill" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="82.96289270617594" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-10-16T10:05:20Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Seti" TaggedEntity="{90d5c009-3c73-3094-865c-ecf787007c36}" CreationDate="2021-10-16T10:05:20Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{d5cd0c7e-8c8c-427a-a8bd-b1c5b22b3e1b}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9915415500000" Longitude="16.6878717700000" />
+     <BPoint Latitude="48.9915448912557" Longitude="16.6879131214654" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="83" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-10-16T15:21:33Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="seti" TaggedEntity="{26d7c71c-0921-c5b6-2d3d-f72a76038579}" CreationDate="2021-10-16T15:21:33Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{1e4664e2-7979-4f2b-8c7f-74b5d7d63a87}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9833228600000" Longitude="16.6829472600000" />
+     <BPoint Latitude="48.9833299559754" Longitude="16.6829874957914" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="75" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-10-29T15:17:43Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="postr" TaggedEntity="{9d6478dc-9636-c4ee-fbb1-ee770290657d}" CreationDate="2021-10-29T15:17:43Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{cbfce5f0-9348-494b-a332-4a9df98379c6}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9441705700000" Longitude="16.6632104000000" />
+     <BPoint Latitude="48.9441846907631" Longitude="16.6632460774983" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="59" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="24000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2021-10-29T16:19:43Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="postrik" TaggedEntity="{c0885f85-24ae-4862-b640-e775b0b64a5d}" CreationDate="2021-10-29T16:19:43Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{b9407a61-9c4f-4aad-b0d7-0965453eaeee}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0058335500000" Longitude="16.6947553400000" />
+     <BPoint Latitude="49.0058287891511" Longitude="16.6947963808086" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="100" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="24000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-03-05T10:26:48Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{d0fa4ebc-eff1-7b28-233d-df84b0e2402c}" CreationDate="2022-03-05T10:26:48Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{3255591c-11f0-4622-b1ae-67fd70baaaca}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9788446300000" Longitude="16.7258883000000" />
+     <BPoint Latitude="48.9788643519702" Longitude="16.7259172335107" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="44" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3950" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-03-05T12:31:46Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{0e4f51cf-5758-908b-50c3-88854378f26e}" CreationDate="2022-03-05T12:31:46Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{d8a261d0-40e2-4994-bc90-a1c7492cb6aa}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9809903800000" Longitude="16.7189982200000" />
+     <BPoint Latitude="48.9809720346104" Longitude="16.7189672656306" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="228" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3950" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-15T18:24:17Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="seti" TaggedEntity="{5ea4cca1-7c2e-66fb-11d8-432ce0a74705}" CreationDate="2022-03-24T15:09:22Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{6284b022-bf26-4430-9403-db5264ea87fd}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0090946500000" Longitude="16.6771637700000" />
+     <BPoint Latitude="49.0090673377081" Longitude="16.6771674023595" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="175" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-03-29T14:35:22Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Hnojeni" TaggedEntity="{ee47467f-efdc-392b-0243-1b31641ad660}" CreationDate="2022-03-29T14:35:22Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{c271057d-dd5c-44c8-bfc9-024de535ea08}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9893146300000" Longitude="16.7031475700000" />
+     <BPoint Latitude="48.9893326169833" Longitude="16.7031790113151" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="49" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="24000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-03-29T17:11:06Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="hnojeni" TaggedEntity="{26d7c71c-0921-c5b6-2d3d-f72a76038579}" CreationDate="2022-03-29T17:11:06Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{a7b97367-8444-411d-83a9-b7c2746896f0}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9836077800000" Longitude="16.6798303500000" />
+     <BPoint Latitude="48.9836130113610" Longitude="16.6798712400670" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="79" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="24000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-04-02T08:33:27Z" LastModifiedNode="{63bb0e30-cb38-4faf-9e1c-c0760ce01ee6}" Name="Hnojeni" TaggedEntity="{d0fa4ebc-eff1-7b28-233d-df84b0e2402c}" CreationDate="1970-01-01T00:00:00Z" StringGuid="{ebec47d6-a2af-4f40-bbcb-fd4cdbe2c036}">
+     <TramLineAttributes>
+      <TrackOffset>0</TrackOffset>
+      <Spacing>0</Spacing>
+     </TramLineAttributes>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9793628585701" Longitude="16.7236549693530" />
+     <BPoint Latitude="48.9806224556604" Longitude="16.7257219889660" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="47.20726768177235" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="24000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-04-02T08:34:24Z" LastModifiedNode="{63bb0e30-cb38-4faf-9e1c-c0760ce01ee6}" Name="Hnojeni" TaggedEntity="{0e4f51cf-5758-908b-50c3-88854378f26e}" CreationDate="1970-01-01T00:00:00Z" StringGuid="{ac296c6c-4eec-4420-97cd-59819c94c814}">
+     <TramLineAttributes>
+      <TrackOffset>0</TrackOffset>
+      <Spacing>0</Spacing>
+     </TramLineAttributes>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9797178606061" Longitude="16.7185269754791" />
+     <BPoint Latitude="48.9808061095647" Longitude="16.7203078179334" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="47.12709917818347" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="24000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-04-02T08:42:07Z" LastModifiedNode="{63bb0e30-cb38-4faf-9e1c-c0760ce01ee6}" Name="Hnojeni_postrik" TaggedEntity="{b40357f8-0ea5-7a2b-3c5e-95c9e874668d}" CreationDate="1970-01-01T00:00:00Z" StringGuid="{b3b09a40-1bb9-42bb-b65d-9042ae1b68b2}">
+     <TramLineAttributes>
+      <TrackOffset>0</TrackOffset>
+      <Spacing>0</Spacing>
+     </TramLineAttributes>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9652538316207" Longitude="16.6380194597776" />
+     <BPoint Latitude="48.9651531311819" Longitude="16.6404215980130" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="93.64304692821793" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="24000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-04-02T08:39:13Z" LastModifiedNode="{63bb0e30-cb38-4faf-9e1c-c0760ce01ee6}" Name="Hnojeni_postrik" TaggedEntity="{04010d86-953a-4758-6d3a-38e213e582b6}" CreationDate="1970-01-01T00:00:00Z" StringGuid="{fbfe350b-db81-4b79-8bc8-8dab8cdcd267}">
+     <TramLineAttributes>
+      <TrackOffset>0</TrackOffset>
+      <Spacing>0</Spacing>
+     </TramLineAttributes>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9510690966424" Longitude="16.6594296709289" />
+     <BPoint Latitude="48.9511871249972" Longitude="16.6545199086873" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="272.0903930664063" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="24000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-04-02T08:41:25Z" LastModifiedNode="{63bb0e30-cb38-4faf-9e1c-c0760ce01ee6}" Name="Hnojeni_postrik" TaggedEntity="{e5405057-fe87-a0de-27cb-40c07d66fe13}" CreationDate="1970-01-01T00:00:00Z" StringGuid="{9ca1a78b-c23d-4378-8611-7d6b1abe3d22}">
+     <TramLineAttributes>
+      <TrackOffset>0</TrackOffset>
+      <Spacing>0</Spacing>
+     </TramLineAttributes>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9629323212580" Longitude="16.6415469286346" />
+     <BPoint Latitude="48.9609359007537" Longitude="16.6393915229358" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="215.4086626923881" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="24000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-01T17:37:20Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{ceba3308-7cd9-4f72-be87-c9d8d0a0b2c6}" CreationDate="2022-08-01T17:37:20Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{6428c857-8b60-45de-8854-f31ad49abe14}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0032770800000" Longitude="16.6090137600000" />
+     <BPoint Latitude="49.0026188300000" Longitude="16.6064534000000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="248.6560974121094" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-01T18:54:31Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 2" TaggedEntity="{ceba3308-7cd9-4f72-be87-c9d8d0a0b2c6}" CreationDate="2022-08-01T18:54:31Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{9d0c4043-10cf-4b4e-b773-e981e0454358}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0072580100000" Longitude="16.6110536800000" />
+     <BPoint Latitude="49.0060803200000" Longitude="16.6095812700000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="219.4372406005859" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-02T18:02:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{24c1ce74-ac46-42db-b800-056473513ca6}" CreationDate="2022-08-02T18:02:18Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{24f8fbb0-0d80-4ba3-a0d7-b357cabf78a3}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9692754300000" Longitude="16.5654427100000" />
+     <BPoint Latitude="48.9701978600000" Longitude="16.5680861900000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="62.07579040527344" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-02T19:56:00Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{d2665c92-3574-49bc-9cb2-858c71b8b73f}" CreationDate="2022-08-02T19:56:00Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{e074e92e-8403-465b-a8eb-40b01f059e0c}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9723942700000" Longitude="16.5636023200000" />
+     <BPoint Latitude="48.9739508900000" Longitude="16.5682288400000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="62.92952346801758" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-10T16:20:51Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="disc" TaggedEntity="{d0fa4ebc-eff1-7b28-233d-df84b0e2402c}" CreationDate="2022-08-10T16:20:51Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{1c7771a9-4249-48da-acff-5938d48bc313}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9784353300000" Longitude="16.7253442900000" />
+     <BPoint Latitude="48.9784557046284" Longitude="16.7253721600148" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="42" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-10T17:32:26Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Podmitka" TaggedEntity="{0e4f51cf-5758-908b-50c3-88854378f26e}" CreationDate="2022-08-10T17:32:26Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{0b141442-6213-49e4-9b37-7babef6c3ef6}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9807829600000" Longitude="16.7204583200000" />
+     <BPoint Latitude="48.9807646146097" Longitude="16.7204273657590" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="228" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-10T18:51:37Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka" TaggedEntity="{ee47467f-efdc-392b-0243-1b31641ad660}" CreationDate="2022-08-10T18:51:37Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{9f632d9e-1a5d-44a5-be58-032e4871eb28}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9909941000000" Longitude="16.7045750400000" />
+     <BPoint Latitude="48.9909761130219" Longitude="16.7045435976282" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="229" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-11T15:45:31Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Quick Line" CreationDate="2022-08-11T15:45:31Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{ce4c7a71-9455-4e42-9b34-387530547d31}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9722397000000" Longitude="16.5711958100000" />
+     <BPoint Latitude="48.9722006000000" Longitude="16.5709833100000" />
+     <SaveMethod Value="dtiABLineMethodAutomaticB" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="254.3845977783203" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-11T17:56:12Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{8048a657-ba83-4cd3-b5a5-4556e38e3c73}" CreationDate="2022-08-11T17:56:12Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{26fc0c5c-3ecd-4789-bc63-95493c381bda}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9821751700000" Longitude="16.5762342700000" />
+     <BPoint Latitude="48.9821822659768" Longitude="16.5762745048675" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="75" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-18T12:52:35Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Podmitka" TaggedEntity="{9d6478dc-9636-c4ee-fbb1-ee770290657d}" CreationDate="2022-08-18T12:52:35Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{9cb8d774-8b53-4e2d-94ac-0504c373c389}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9455398600000" Longitude="16.6658988200000" />
+     <BPoint Latitude="48.9455249276730" Longitude="16.6658639114280" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="237" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-19T16:43:00Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka" TaggedEntity="{b40357f8-0ea5-7a2b-3c5e-95c9e874668d}" CreationDate="2022-08-19T16:43:00Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{e413abb0-b02e-4a4a-a0d9-741b441331cc}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9653339000000" Longitude="16.6380415900000" />
+     <BPoint Latitude="48.9653319874987" Longitude="16.6380831287380" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="94" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-19T17:30:21Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka" TaggedEntity="{e5405057-fe87-a0de-27cb-40c07d66fe13}" CreationDate="2022-08-19T17:30:21Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{f41daca7-f4ed-4615-9b10-e8c4ec43b28a}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9629488100000" Longitude="16.6416460100000" />
+     <BPoint Latitude="48.9629269139374" Longitude="16.6416209515143" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="217" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-20T08:34:29Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitani" TaggedEntity="{04010d86-953a-4758-6d3a-38e213e582b6}" CreationDate="2022-08-20T08:34:08Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{6e636bec-0a87-4e80-b395-180e873f3dff}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9518339500000" Longitude="16.6555673200000" />
+     <BPoint Latitude="48.9518320374942" Longitude="16.6556088475295" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="94" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-08-20T09:34:38Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka" TaggedEntity="{8a1379f4-9ae1-78fe-6653-c8f7b8f621ba}" CreationDate="2022-08-20T09:34:38Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{45c91481-2562-41f8-abd8-15011986a1f0}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9576246200000" Longitude="16.6744156000000" />
+     <BPoint Latitude="48.9576139073769" Longitude="16.6743772759274" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="247" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-09-13T15:56:00Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="disc" TaggedEntity="{26d7c71c-0921-c5b6-2d3d-f72a76038579}" CreationDate="2022-09-13T15:56:00Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{1b28a589-ad75-459a-9473-67ff809ea5cf}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9836471900000" Longitude="16.6784171500000" />
+     <BPoint Latitude="48.9836510056730" Longitude="16.6784584000390" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="82" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-09-23T15:11:11Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka1" TaggedEntity="{8a1379f4-9ae1-78fe-6653-c8f7b8f621ba}" CreationDate="2022-09-23T15:11:11Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{033b65bb-e9fc-474f-8809-235e7ff322c7}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9568377200000" Longitude="16.6717637400000" />
+     <BPoint Latitude="48.9568252730015" Longitude="16.6717266446371" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="243" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-09-23T16:53:32Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka1" TaggedEntity="{04010d86-953a-4758-6d3a-38e213e582b6}" CreationDate="2022-09-23T16:53:32Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{eb6b79bc-5a79-4f78-918b-81a9548297fc}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9517116600000" Longitude="16.6596795600000" />
+     <BPoint Latitude="48.9517126168358" Longitude="16.6597211634746" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="88" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-09-24T07:36:42Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 2" TaggedEntity="{ee47467f-efdc-392b-0243-1b31641ad660}" CreationDate="2022-09-24T07:36:42Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{9157de6f-4561-429f-92c4-9f28fb5ca737}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9904185500000" Longitude="16.7036812600000" />
+     <BPoint Latitude="48.9900619000000" Longitude="16.7031014500000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="226.9331512451172" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-09-24T10:46:08Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="disk" TaggedEntity="{c0885f85-24ae-4862-b640-e775b0b64a5d}" CreationDate="2022-09-24T10:46:08Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{fa6f9920-9f7e-4679-b7e2-911de126cb81}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0023296100000" Longitude="16.6928258500000" />
+     <BPoint Latitude="49.0023668400000" Longitude="16.6936005000000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="85.82209014892578" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-09-25T14:27:42Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka2" TaggedEntity="{d0fa4ebc-eff1-7b28-233d-df84b0e2402c}" CreationDate="2022-09-25T14:27:25Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{a34923b3-c4f7-4540-8dce-c38a124d7269}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9784462800000" Longitude="16.7253082300000" />
+     <BPoint Latitude="48.9784675868296" Longitude="16.7253344418819" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="39" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-09-26T15:03:11Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 2" TaggedEntity="{d0fa4ebc-eff1-7b28-233d-df84b0e2402c}" CreationDate="2022-09-26T15:03:11Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{471d373f-87f4-4abc-a9e1-fc295c5b37d4}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9806914300000" Longitude="16.7203163800000" />
+     <BPoint Latitude="48.9797849500000" Longitude="16.7188296300000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="227.191162109375" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-07T12:49:56Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{a673b555-c063-4972-b7bd-b1e370e3faf9}" CreationDate="2022-10-07T12:49:08Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{5ba703ec-7aed-48e9-95bd-30edec464d3d}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9853532600000" Longitude="16.6715615600000" />
+     <BPoint Latitude="48.9853258474419" Longitude="16.6715622870123" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="179" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-07T15:05:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka1" TaggedEntity="{0c914f81-f301-17da-04e1-5b335b95c08e}" CreationDate="2022-10-07T15:02:59Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{7018f01f-ec06-4c29-b195-5c88b44616f1}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9959050500000" Longitude="16.6991832900000" />
+     <BPoint Latitude="48.9958974929379" Longitude="16.6991432384100" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="254" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-13T14:46:00Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka" TaggedEntity="{5ea4cca1-7c2e-66fb-11d8-432ce0a74705}" CreationDate="2022-10-13T14:46:00Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{bd7d06a4-20b4-4f50-89ab-d65cc687c8f8}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0102316000000" Longitude="16.6769398100000" />
+     <BPoint Latitude="49.0102043877443" Longitude="16.6769448892217" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="173" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-13T16:44:04Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka" TaggedEntity="{b8c28d0f-f400-5167-03f6-2d51807b7e5d}" CreationDate="2022-10-13T16:44:04Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{ff5a5ca2-2a71-4536-b58b-0b158ee07d3f}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9761232300000" Longitude="16.7285174500000" />
+     <BPoint Latitude="48.9761059760626" Longitude="16.7285498174744" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="129" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-13T18:01:27Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka" TaggedEntity="{26d7c71c-0921-c5b6-2d3d-f72a76038579}" CreationDate="2022-10-13T18:01:27Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{948346b8-4c96-478a-afc1-c20848186b55}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9845461000000" Longitude="16.6857087700000" />
+     <BPoint Latitude="48.9845508608665" Longitude="16.6857497933250" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="80" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-13T20:47:52Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka2" TaggedEntity="{0c914f81-f301-17da-04e1-5b335b95c08e}" CreationDate="2022-10-13T20:47:28Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{2626cb93-dc6d-41dc-a6bb-6041527603fa}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9955159800000" Longitude="16.6997281600000" />
+     <BPoint Latitude="48.9955093473035" Longitude="16.6996877323161" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="256" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-14T07:46:54Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{fbbbd539-c52b-49a5-a867-bfdf6192831a}" CreationDate="2022-10-14T07:46:54Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{8e4c2095-4038-4705-8a82-fbc657bcb1f8}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9853632500000" Longitude="16.6729538100000" />
+     <BPoint Latitude="48.9847427500000" Longitude="16.6730533000000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="173.9759979248047" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-14T12:01:21Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{b8c28d0f-f400-5167-03f6-2d51807b7e5d}" CreationDate="2022-10-14T12:01:21Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{0da5bf7b-cd08-44b9-b48e-4116fcc10356}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9772816800000" Longitude="16.7269333000000" />
+     <BPoint Latitude="48.9772626347096" Longitude="16.7269632605907" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="134" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3950" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-14T14:00:13Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="seti" TaggedEntity="{0c914f81-f301-17da-04e1-5b335b95c08e}" CreationDate="2022-10-14T14:00:13Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{ce97e16d-8f2f-4e11-8b80-c3be39e4940f}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9949115300000" Longitude="16.6921150800000" />
+     <BPoint Latitude="48.9949181626972" Longitude="16.6921555071947" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="76" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3950" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-14T16:51:40Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="seti" TaggedEntity="{fbbbd539-c52b-49a5-a867-bfdf6192831a}" CreationDate="2022-10-14T16:51:40Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{fdf1e3a1-ada8-4595-83a1-ee132adc66df}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9849929600000" Longitude="16.6729228800000" />
+     <BPoint Latitude="48.9850202265438" Longitude="16.6729185257050" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="354" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3950" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-22T10:57:43Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="seti" TaggedEntity="{102ac0ba-fd41-bdd8-5526-a99dc550425c}" CreationDate="2022-10-22T10:57:43Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{578909c3-c1fd-492a-bfc7-1d8d4212874d}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9646706800000" Longitude="16.6927169400000" />
+     <BPoint Latitude="48.9646530567997" Longitude="16.6927488377989" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="130" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3950" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-22T12:19:41Z" LastModifiedNode="{63bb0e30-cb38-4faf-9e1c-c0760ce01ee6}" Name="SETI" TaggedEntity="{0d66d799-4bf7-0535-8085-1308ce26463e}" CreationDate="1970-01-01T00:00:00Z" StringGuid="{91310b35-5a9a-4026-b458-3f29ebb0b87d}">
+     <TramLineAttributes>
+      <TrackOffset>0</TrackOffset>
+      <Spacing>0</Spacing>
+     </TramLineAttributes>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9538643599790" Longitude="16.6906365382663" />
+     <BPoint Latitude="48.9549681530248" Longitude="16.6878786157427" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="301.2877197265625" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3950" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-22T12:20:36Z" LastModifiedNode="{63bb0e30-cb38-4faf-9e1c-c0760ce01ee6}" Name="SETI" TaggedEntity="{def7c8eb-850b-d960-890e-05cf14c469db}" CreationDate="1970-01-01T00:00:00Z" StringGuid="{725287fe-1c70-400b-a4e6-40c002969940}">
+     <TramLineAttributes>
+      <TrackOffset>0</TrackOffset>
+      <Spacing>0</Spacing>
+     </TramLineAttributes>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9561204611314" Longitude="16.7170553864426" />
+     <BPoint Latitude="48.9577582153286" Longitude="16.7198501378319" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="48.33549576218314" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="3950" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-10-23T17:58:19Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="podmitka" TaggedEntity="{def7c8eb-850b-d960-890e-05cf14c469db}" CreationDate="2022-10-23T17:58:19Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{6aabe79a-e36d-4769-94f3-ab3781890cec}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="48.9576613900000" Longitude="16.7199842800000" />
+     <BPoint Latitude="48.9576807766519" Longitude="16.7200137195314" />
+     <SaveMethod Value="dtiABLineMethodHeading" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="45" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="4849.999999999999" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-12-13T15:35:15Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="fenix" TaggedEntity="{e099172d-d0b1-4232-9605-605625eff1ec}" CreationDate="2022-12-13T15:35:15Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{476c5298-365a-453c-97b0-7bba1fd8092c}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0052834300000" Longitude="16.6837301000000" />
+     <BPoint Latitude="49.0086927100000" Longitude="16.6843188700000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="6.481893062591553" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <ABLine LastModifiedDate="2022-12-14T17:33:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Stopa 1" TaggedEntity="{e5dc7a4c-263a-48e5-aeb1-b2d1ae03dcad}" CreationDate="2022-12-14T17:33:18Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{6c18c865-f06f-4ea4-85f0-0f0c9711c152}">
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.0058949600000" Longitude="16.6763245800000" />
+     <BPoint Latitude="49.0069188900000" Longitude="16.6761516400000" />
+     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
+     <Heading SourceUnit="arcdeg" Value="353.6595764160156" Representation="vrABLineHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABLine>
+    <AdaptiveCurve LastModifiedDate="2022-12-14T16:18:48Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="pro jaru2" TaggedEntity="{e099172d-d0b1-4232-9605-605625eff1ec}" CreationDate="2022-12-14T16:14:50Z" SourceNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" StringGuid="{6f458039-85b8-4b37-b911-c2a1d07e8bcd}">
+     <Geometry>
+      <FilenameWithExtension>AdaptiveCurve{6f458039-85b8-4b37-b911-c2a1d07e8bcd}.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <ReferenceLatitude SourceUnit="arcdeg" Value="49.00805732675711" Representation="vrLatitude" />
+     <ReferenceLongitude SourceUnit="arcdeg" Value="16.68690845935382" Representation="vrLongitude" />
+    </AdaptiveCurve>
+   </Tracks>
+  </Guidance>
+  </Setup>

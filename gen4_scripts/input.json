@@ -1,11 +1,11 @@
 {
     "path_home": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin",
     "json_metadat": "gen4_scripts/base_element/version1/metadata.json",
-    "shpFields": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin/data/boundary_polygon.shp",
-    "shpGuide": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin/data/navigation_line.shp",
-    "clientName": "Farm-Rostenice",
-    "farmColumn": "STREDISKO",
-    "fieldColumn": "PARCELA",
-    "cropColumn": "PLODINA",
-    "lineColumn": "ID_str"
+    "shpFields": "D:/Documents/Vyzkum/JD_Geo4/_LinkedId/ZP_Slavkov_18-06-2024_06-10-51_III.shp",
+    "shpGuide": "D:/Documents/Vyzkum/JD_Geo4/_LinkedId/merge_all_lines.shp",
+    "clientName": "JARO 2023",
+    "farmColumn": "FARMAKU",
+    "fieldColumn": "NAZEVJD",
+    "cropColumn": "",
+    "lineColumn": "Name"
 }

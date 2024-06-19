@@ -32594,3 +32594,190 @@ INFO:root:Cas: 2024-06-03 13:24:05 - STOP
 INFO:root:====================
 INFO:root:Cas: 2024-06-03 15:03:15 - START
 INFO:root:Cas: 2024-06-03 15:03:16 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-13 15:45:17 - START
+INFO:root:Cas: 2024-06-13 15:45:18 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 18:44:02 - START
+INFO:root:Cas: 2024-06-17 20:06:04 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 21:37:55 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 21:37:55 - START
+ERROR:root:An exception was thrown!
+Traceback (most recent call last):
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 923, in create_file
+    output_folder, output_log = gen4_from_shp.creat_setup_xml()
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 466, in creat_setup_xml
+    elm_setup, self.bool_Guidance = create_element.create_guidance(element=elm_setup,
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 829, in create_guidance
+    element_a_point.attrib['Latitude'] = str(np.array(gdf_ab.geometry.iloc[i].coords)[0][1])
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+INFO:root:Cas: 2024-06-17 21:49:15 - STOP
+ERROR:root:An exception was thrown!
+Traceback (most recent call last):
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 923, in create_file
+    output_folder, output_log = gen4_from_shp.creat_setup_xml()
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 466, in creat_setup_xml
+    elm_setup, self.bool_Guidance = create_element.create_guidance(element=elm_setup,
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 829, in create_guidance
+    element_a_point.attrib['Latitude'] = str(np.array(gdf_ab.geometry.iloc[i].coords)[0][1])
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+INFO:root:Cas: 2024-06-17 21:49:23 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 21:52:55 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 21:52:55 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 21:52:55 - START
+ERROR:root:An exception was thrown!
+Traceback (most recent call last):
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 923, in create_file
+    output_folder, output_log = gen4_from_shp.creat_setup_xml()
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 466, in creat_setup_xml
+    elm_setup, self.bool_Guidance = create_element.create_guidance(element=elm_setup,
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 829, in create_guidance
+    element_a_point.attrib['Latitude'] = str(np.array(gdf_ab.geometry.iloc[i].coords)[0][1])
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+INFO:root:Cas: 2024-06-17 22:10:50 - STOP
+ERROR:root:An exception was thrown!
+Traceback (most recent call last):
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 923, in create_file
+    output_folder, output_log = gen4_from_shp.creat_setup_xml()
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 466, in creat_setup_xml
+    elm_setup, self.bool_Guidance = create_element.create_guidance(element=elm_setup,
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 829, in create_guidance
+    element_a_point.attrib['Latitude'] = str(np.array(gdf_ab.geometry.iloc[i].coords)[0][1])
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+INFO:root:Cas: 2024-06-17 22:10:56 - STOP
+ERROR:root:An exception was thrown!
+Traceback (most recent call last):
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 923, in create_file
+    output_folder, output_log = gen4_from_shp.creat_setup_xml()
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 466, in creat_setup_xml
+    elm_setup, self.bool_Guidance = create_element.create_guidance(element=elm_setup,
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 829, in create_guidance
+    element_a_point.attrib['Latitude'] = str(np.array(gdf_ab.geometry.iloc[i].coords)[0][1])
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+INFO:root:Cas: 2024-06-17 22:11:00 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 22:32:46 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 22:36:40 - START
+ERROR:root:An exception was thrown!
+Traceback (most recent call last):
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 923, in create_file
+    output_folder, output_log = gen4_from_shp.creat_setup_xml()
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 466, in creat_setup_xml
+    elm_setup, self.bool_Guidance = create_element.create_guidance(element=elm_setup,
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 829, in create_guidance
+    element_a_point.attrib['Latitude'] = str(np.array(gdf_ab.geometry.iloc[i].coords)[0][1])
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+INFO:root:Cas: 2024-06-17 22:40:48 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 23:18:39 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 23:18:39 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-17 23:18:39 - START
+INFO:root:Cas: 2024-06-18 01:57:24 - STOP
+INFO:root:====================
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 07:46:22 - START
+INFO:root:Cas: 2024-06-18 07:46:22 - START
+INFO:root:Cas: 2024-06-18 08:46:52 - STOP
+INFO:root:Cas: 2024-06-18 08:46:52 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 10:18:08 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 10:18:08 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 10:18:08 - START
+INFO:root:Cas: 2024-06-18 10:18:28 - STOP
+INFO:root:Cas: 2024-06-18 10:18:28 - STOP
+INFO:root:Cas: 2024-06-18 10:18:28 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 14:13:50 - START
+INFO:root:Cas: 2024-06-18 14:53:50 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 17:25:15 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 17:25:15 - START
+INFO:root:Cas: 2024-06-18 17:25:35 - STOP
+INFO:root:Cas: 2024-06-18 17:25:35 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 17:26:02 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 17:26:02 - START
+INFO:root:Cas: 2024-06-18 17:26:17 - STOP
+INFO:root:Cas: 2024-06-18 17:26:17 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 17:29:38 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 17:33:36 - START
+INFO:root:Cas: 2024-06-18 17:33:49 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 17:35:21 - START
+INFO:root:Cas: 2024-06-18 17:35:30 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 17:38:10 - START
+INFO:root:Cas: 2024-06-18 18:03:21 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 18:29:42 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 18:29:42 - START
+INFO:root:Cas: 2024-06-18 18:31:55 - STOP
+INFO:root:Cas: 2024-06-18 18:31:57 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 18:40:54 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 18:40:54 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 18:40:54 - START
+INFO:root:Cas: 2024-06-18 18:42:34 - STOP
+INFO:root:Cas: 2024-06-18 18:42:34 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 18:55:13 - START
+INFO:root:Cas: 2024-06-18 18:55:24 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 18:59:58 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 18:59:58 - START
+INFO:root:Cas: 2024-06-18 19:00:26 - STOP
+INFO:root:Cas: 2024-06-18 19:00:26 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 19:03:27 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 19:03:27 - START
+INFO:root:Cas: 2024-06-18 19:04:11 - STOP
+INFO:root:Cas: 2024-06-18 19:04:14 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 21:02:54 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 21:02:54 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 21:02:54 - START
+INFO:root:====================
+INFO:root:Cas: 2024-06-18 21:02:54 - START
+INFO:root:Cas: 2024-06-18 23:26:28 - STOP
+INFO:root:Cas: 2024-06-18 23:26:29 - STOP
+INFO:root:Cas: 2024-06-18 23:26:30 - STOP
+INFO:root:Cas: 2024-06-18 23:26:30 - STOP

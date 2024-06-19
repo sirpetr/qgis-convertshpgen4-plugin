@@ -369,17 +369,21 @@ class Gen4FromShp:
         except ValueError:
             self.gdf_lines.geometry = self.gdf_lines.geometry.to_crs(4326)
 
+        self.gdf_lines = gpd.overlay(self.gdf_lines, self.gdf_fields, keep_geom_type=False)
+        self.gdf_lines = gdf_multi_single_line(df=self.gdf_lines)
         self.gdf_lines = self.gdf_lines.reset_index()
         if self.line_column in self.gdf_lines.columns.to_list():
             self.gdf_lines[self.line_column] = self.gdf_lines.apply(
                 lambda x: "Line" if isinstance(x[self.line_column], type(None)) else x[self.line_column], axis=1)
             self.gdf_lines["ID_line"] = self.gdf_lines.apply(
-                lambda x: str(x[self.line_column]), axis=1)
+                lambda x: f"{x[self.line_column]}_{x['index'] + 1}", axis=1)
         else:
             self.gdf_lines["ID_line"] = self.gdf_lines.apply(lambda x: "Line" + str(x['index'] + 1), axis=1)
 
-        self.gdf_lines = gpd.overlay(self.gdf_lines, self.gdf_fields, keep_geom_type=False)
-        self.gdf_lines = gdf_multi_single_line(df=self.gdf_lines)
+        ###############
+        print("Unique: ", len(self.gdf_lines["ID_line"].unique()), "All: ", self.gdf_lines.shape)
+        ###############
+
         self.gdf_fields['Client'] = self.client_column
 
         # Check if column Client, Farm, Crop is not exist
@@ -428,9 +432,6 @@ class Gen4FromShp:
         i_max = gdf_first_select.shape[0]
         for i, x_row in gdf_first_select.iterrows():
 
-            # if i < 56:
-            #    continue
-
             self.output_log.append(my_print(f'{now_time(john_deere=False)} - Field {i + 1}: {diacritic(x_row[self.field_column])}'))
             create_element = CreateElement(self.json_input,
                                            self.metadata_element,
@@ -449,7 +450,12 @@ class Gen4FromShp:
 
             gdf_first_select.geometry = gdf_first_select.geometry.set_crs(4326)
             x_gdf_first_select = gdf_first_select.loc[gdf_first_select['index'] == x_row['index']]
-            x_gdf_line = gpd.overlay(df1=self.gdf_lines, df2=x_gdf_first_select, keep_geom_type=False) # keep_geom_type=True
+            x_gdf_line = gpd.overlay(df1=self.gdf_lines, df2=x_gdf_first_select, keep_geom_type=False)
+
+            x_gdf_line.geometry = x_gdf_line.geometry.to_crs(32633)
+            x_gdf_line["length"] = x_gdf_line.geometry.length
+            x_gdf_line = x_gdf_line[x_gdf_line["length"] >= 1]
+            x_gdf_line.geometry = x_gdf_line.geometry.to_crs(4326)
 
             # Guidance element
             if not x_gdf_line.empty:
@@ -548,23 +554,22 @@ class Gen4FromShp:
             dict_polygon['interior'] = [list(x.coords) for x in geom.interiors]
             x_geom_dict['geometry']['coordinates'] = [dict_polygon['exterior']]
             x_geom_dict['id'] = 0
-            list_dict_geom.append(x_geom_dict)
+            list_dict_geom.append(x_geom_dict.copy())
 
         else:
             list_polygon_ext = []
             list_polygon_int = []
-            for x_polygon in geom.geoms:
-                list_polygon_ext.append(list(x_polygon.exterior.coords))
-                list_polygon_int.append([list(x.coords) for x in x_polygon.interiors])
+            a = []
+            ext = 0
+            for i, x_polygon in enumerate(geom.geoms):
 
-            dict_polygon['exterior'] = list_polygon_ext
-            dict_polygon['interior'] = list_polygon_int
+                polygon_ext = list(x_polygon.exterior.coords)
+                polygon_int = [list(x.coords) for x in x_polygon.interiors]
 
-            # Creating geometry of boundary
-            for i, x_geom in enumerate(dict_polygon['exterior']):
-                x_geom_dict['geometry']['coordinates'] = [x_geom]
+                x_geom_dict['geometry']['coordinates'] = [polygon_ext]
                 x_geom_dict['id'] = i
-                list_dict_geom.append(x_geom_dict)
+                list_dict_geom.append(x_geom_dict.copy())
+                list_dict_geom[-1]['geometry'] = x_geom_dict['geometry'].copy()
 
         dict_final = {
             'features': list_dict_geom,
@@ -572,7 +577,7 @@ class Gen4FromShp:
         }
 
         with open(os.path.join(self.fold_spatial, path_boundary), 'w', encoding='UTF-8') as j:
-            json.dump(dict_final, j, indent=4) # indent=4
+            json.dump(dict_final, j, indent=4)
 
     def create_geojson_adaptive_curve(self, path_adaptive_curve, gdf_line):
         """Create Adaptive curve"""
@@ -767,7 +772,7 @@ class CreateElement(Gen4FromShp):
 
         if bool_Adaptive and not gdf_adaptive.empty:
 
-            name_adaptive = f'Adapt{str(idn + 1)}_{diacritic(gdf_adaptive["ID_line"].iloc[0])}'
+            name_adaptive = f'Adapt-{diacritic(gdf_adaptive["ID_line"].iloc[0])}'
             string_gui = unique_id(name_adaptive)
             path_adaptive = 'AdaptiveCurve' + string_gui + '.gjson'
 
@@ -812,7 +817,7 @@ class CreateElement(Gen4FromShp):
             # Count point
             first_step = True
             for i in range(gdf_ab.shape[0]):
-                name_ab_line = f'AB_{diacritic(gdf_ab["ID_line"].iloc[i])}'
+                name_ab_line = f'AB-{diacritic(gdf_ab["ID_line"].iloc[i])}'
                 string_gui = unique_id(name_ab_line)
 
                 element_ab_line = [x for x in element_tracks.findall('ABLine')][0]
@@ -935,15 +940,15 @@ def create_file(input_json, processBar=None):
 
 if __name__ == '__main__':
     dict_test = {
-        "path_home": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/convert_shapefile_gen4",
-        "json_metadat": "gen4_scripts/base_element/version1/metadata.json",
-        "shpFields": "D:/Documents/Vyzkum/JD_Geo4/_TEST/ZP_Zadni_u_Tesan.shp",
-        "shpGuide": "D:/Documents/Vyzkum/JD_Geo4/_TEST/6m_podzim_2023_610_paek10_vz12/Merge.shp",
-        "clientName": "DIVIZE",
-        "farmColumn": "STREDISKO",
-        "fieldColumn": "PARCELA",
-        "cropColumn": "PLODINA",
-        "lineColumn": ""
-    }
+    "path_home": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin",
+    "json_metadat": "gen4_scripts/base_element/version1/metadata.json",
+    "shpFields": "D:/Documents/Vyzkum/JD_Geo4/_LinkedId/ZP_Slavkov_18-06-2024_06-10-51_III.shp",
+    "shpGuide": "D:/Documents/Vyzkum/JD_Geo4/_LinkedId/merge_all_lines.shp",
+    "clientName": "JARO 2023",
+    "farmColumn": "FARMAKU",
+    "fieldColumn": "NAZEVJD",
+    "cropColumn": "",
+    "lineColumn": "Name"
+}
     create_file(dict_test)
     

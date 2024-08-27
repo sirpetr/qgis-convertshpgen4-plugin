@@ -1,6 +1,6 @@
 import json
+import shutil
 import time
-
 import numpy as np
 import pandas as pd
 import geopandas as gpd
@@ -17,6 +17,7 @@ import logging
 import sys
 from copy import deepcopy
 import warnings
+
 warnings.filterwarnings("ignore")
 
 
@@ -34,7 +35,6 @@ def now_time(john_deere=True):
 
 
 def my_print(str_my_print):
-    
     print(str_my_print)
     return str_my_print
 
@@ -312,6 +312,18 @@ def gdf_multi_single_line(df: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
     return df_new
 
 
+def dict_line_types(type_number):
+    """Check if types of line/curve:
+     1 -> AB Line
+     2 -> AB Curve
+     3 -> Adaptive Line"""
+
+    if 3 >= type_int >= 1:
+        return type_int
+    else:
+        return 3
+
+
 class Gen4FromShp:
 
     def __init__(self, json_input, output_log=[], processBar=None):
@@ -343,6 +355,7 @@ class Gen4FromShp:
         self.field_column = json_input['fieldColumn']
         self.crop_column = json_input['cropColumn']
         self.line_column = json_input['lineColumn']
+        self.line_type_column = json_input['lineColumnType']
         if not len(self.crop_column):
             self.crop_column = 'Crop'
 
@@ -355,11 +368,18 @@ class Gen4FromShp:
         self.metadata_element = metadata['element']
         self.bool_Guidance = True
         self.processBar = processBar
+        self.id_process = now_time()
+        self.dict_line_types = {
+            "AB Line": 1,
+            "AB Curve": 2,
+            "Adaptive Curve": 3,
+        }
 
     def prepare_gdf(self):
 
         """Prepare shapefile data"""
 
+        # Control geometry of polygons and line
         try:
             self.gdf_fields.geometry = self.gdf_fields.geometry.set_crs(4326)
         except ValueError:
@@ -390,6 +410,23 @@ class Gen4FromShp:
         self.gdf_fields = check_column(self.client_column, self.gdf_fields)
         self.gdf_fields = check_column(self.farm_column, self.gdf_fields)
         self.gdf_fields = check_column(self.crop_column, self.gdf_fields)
+
+        # Check if column Line exist
+        if not len(self.line_type_column):
+            self.gdf_lines = self.gdf_lines.rename(columns={self.line_type_column: 'Type_line'})
+            self.line_type_column = 'Type_line'
+            self.gdf_lines[self.line_type_column] = self.dict_line_types['Adaptive Curve']
+
+        self.gdf_lines[self.line_type_column] = self.gdf_lines[self.line_type_column].fillna(0)
+        self.gdf_lines[self.line_type_column] = self.gdf_lines[self.line_type_column].astype(int)
+        # If type line is not from 1 to 3 then set default 3 as Adaptive Curve
+        self.gdf_lines.loc[(self.gdf_lines[self.line_type_column] <
+                            self.dict_line_types['AB Line']), self.line_type_column] = self.dict_line_types[
+            'Adaptive Curve']
+        self.gdf_lines.loc[(self.gdf_lines[self.line_type_column] >
+                            self.dict_line_types['Adaptive Curve']), self.line_type_column] = self.dict_line_types[
+            'Adaptive Curve']
+
         if self.processBar:
             self.processBar.setValue(20)
 
@@ -416,14 +453,20 @@ class Gen4FromShp:
         # Client elements
         gdf_first_select = self.gdf_fields[columns_select].groupby(self.client_column, as_index=False).first()
         for i, x_row in gdf_first_select.iterrows():
-            create_element = CreateElement(self.json_input, self.metadata_element, client=x_row[self.client_column])
+            create_element = CreateElement(self.json_input,
+                                           self.metadata_element,
+                                           client=x_row[self.client_column],
+                                           id_process=self.id_process)
             elm_setup = create_element.create_client(element=elm_setup)
 
         # Farm elements
         gdf_first_select = self.gdf_fields[columns_select].groupby(self.farm_column, as_index=False).first()
         for i, x_row in gdf_first_select.iterrows():
-            create_element = CreateElement(self.json_input, self.metadata_element, client=x_row[self.client_column],
-                                           farm=x_row[self.farm_column])
+            create_element = CreateElement(self.json_input,
+                                           self.metadata_element,
+                                           client=x_row[self.client_column],
+                                           farm=x_row[self.farm_column],
+                                           id_process=self.id_process)
             elm_setup = create_element.create_farm(element=elm_setup)
 
         gdf_first_select = self.gdf_fields[columns_select].groupby(self.field_column, as_index=False).first()
@@ -432,12 +475,14 @@ class Gen4FromShp:
         i_max = gdf_first_select.shape[0]
         for i, x_row in gdf_first_select.iterrows():
 
-            self.output_log.append(my_print(f'{now_time(john_deere=False)} - Field {i + 1}: {diacritic(x_row[self.field_column])}'))
+            self.output_log.append(
+                my_print(f'{now_time(john_deere=False)} - Field {i + 1}: {diacritic(x_row[self.field_column])}'))
             create_element = CreateElement(self.json_input,
                                            self.metadata_element,
                                            field=x_row[self.field_column],
                                            farm=x_row[self.farm_column],
-                                           crop=x_row[self.crop_column])
+                                           crop=x_row[self.crop_column],
+                                           id_process=self.id_process)
             # Field element
             elm_setup = create_element.create_field(element=elm_setup)
 
@@ -472,17 +517,18 @@ class Gen4FromShp:
                 elm_setup, self.bool_Guidance = create_element.create_guidance(element=elm_setup,
                                                                                gdf=x_gdf_line,
                                                                                bool_Guidance=self.bool_Guidance,
-                                                                               bool_ABCurve=False,
+                                                                               bool_ABCurve=True,
                                                                                bool_ABLine=True,
                                                                                bool_Adaptive=True,
                                                                                lat=lat,
-                                                                               long=long)
+                                                                               long=long,
+                                                                               dict_line_types=self.dict_line_types,
+                                                                               line_type_column=self.line_type_column)
 
             # Save xml
             save_element_xml(root, self.master_data_path)
             # Process int
-            # time.sleep(1)
-            value_process = 20 + ((79 * i)/i_max)
+            value_process = 20 + ((79 * i) / i_max)
             if self.processBar:
                 self.processBar.setValue(int(value_process))
 
@@ -527,7 +573,6 @@ class Gen4FromShp:
     def create_geojson_boundary(self, path_boundary, geom):
         """Create geojson in folder SpatialFiles with Boundary, AdaptiveCurve, ABCurve"""
 
-        dict_polygon = {}
         self.output_log.append(my_print(f'{now_time(john_deere=False)} - Create boundary'))
 
         x_geom_dict = {
@@ -539,8 +584,8 @@ class Gen4FromShp:
             'properties': {
                 'boundarytype': 'Exterior',
                 'isactive': True,
-                'ispassable': True,
-                'name': 'Vnější',
+                'ispassable': False,
+                'name': 'Polygon',
                 'offsetid': None,
                 'parent': None,
                 'signaltype': 0
@@ -550,26 +595,61 @@ class Gen4FromShp:
 
         list_dict_geom = []
         if 'Polygon' == geom.geom_type:
-            dict_polygon['exterior'] = list(geom.exterior.coords)
-            dict_polygon['interior'] = [list(x.coords) for x in geom.interiors]
-            x_geom_dict['geometry']['coordinates'] = [dict_polygon['exterior']]
+            polygon_ext = list(geom.exterior.coords)
+            polygon_int = [list(x.coords) for x in geom.interiors]
+            # Exterior polygon
+            x_geom_dict['geometry']['coordinates'] = [polygon_ext]
+            x_geom_dict['properties']['boundarytype'] = 'Exterior'
+            x_geom_dict['properties']['name'] = f'Polygon_{0}'
             x_geom_dict['id'] = 0
+
             list_dict_geom.append(x_geom_dict.copy())
+            list_dict_geom[-1]['geometry'] = x_geom_dict['geometry'].copy()
+            list_dict_geom[-1]['properties'] = x_geom_dict['properties'].copy()
+
+            # Check polygon interior is existed
+            if len(polygon_int):
+                for z, x_inter in enumerate(polygon_int):
+                    x_geom_dict['geometry']['coordinates'] = [x_inter]
+                    x_geom_dict['properties']['boundarytype'] = 'Interior'
+                    x_geom_dict['properties']['name'] = f'Polygon_{z + 1}'
+                    x_geom_dict['id'] = z + 1
+
+                    list_dict_geom.append(x_geom_dict.copy())
+                    list_dict_geom[-1]['geometry'] = x_geom_dict['geometry'].copy()
+                    list_dict_geom[-1]['properties'] = x_geom_dict['properties'].copy()
 
         else:
-            list_polygon_ext = []
-            list_polygon_int = []
-            a = []
-            ext = 0
+            r = 0
             for i, x_polygon in enumerate(geom.geoms):
 
                 polygon_ext = list(x_polygon.exterior.coords)
                 polygon_int = [list(x.coords) for x in x_polygon.interiors]
 
+                # Exterior polygon
                 x_geom_dict['geometry']['coordinates'] = [polygon_ext]
-                x_geom_dict['id'] = i
+                x_geom_dict['properties']['boundarytype'] = 'Exterior'
+                x_geom_dict['properties']['name'] = f'Polygon_{r}'
+                x_geom_dict['id'] = r
+
                 list_dict_geom.append(x_geom_dict.copy())
                 list_dict_geom[-1]['geometry'] = x_geom_dict['geometry'].copy()
+                list_dict_geom[-1]['properties'] = x_geom_dict['properties'].copy()
+
+                r += 1
+
+                if len(polygon_int):
+                    for z, x_inter in enumerate(polygon_int):
+                        x_geom_dict['geometry']['coordinates'] = [x_inter]
+                        x_geom_dict['properties']['boundarytype'] = 'Interior'
+                        x_geom_dict['properties']['name'] = f'Polygon_{r}'
+                        x_geom_dict['id'] = r
+
+                        list_dict_geom.append(x_geom_dict.copy())
+                        list_dict_geom[-1]['geometry'] = x_geom_dict['geometry'].copy()
+                        list_dict_geom[-1]['properties'] = x_geom_dict['properties'].copy()
+
+                        r += 1
 
         dict_final = {
             'features': list_dict_geom,
@@ -602,23 +682,56 @@ class Gen4FromShp:
         with open(os.path.join(self.fold_spatial, path_adaptive_curve), 'w', encoding='UTF-8') as j:
             json.dump(dict_final, j, indent=4)
 
+    def create_geojson_ab_curve(self, path_ab_curve, gdf_line):
+        """Create AB curve"""
+
+        list_multi_lines = []
+        for v, x_line in enumerate(gdf_line.geometry.to_list()):
+            if x_line.geom_type == 'LineString':
+                x_line = [list(x) + [0, 1] for x in list(zip(x_line.xy[0], x_line.xy[1]))]
+                list_multi_lines.append(x_line)
+            elif x_line.geom_type == 'MultiLineString':
+                for i, y_line in enumerate(x_line.geoms):
+                    y_line = [list(x) + [0, 1] for x in list(zip(y_line.xy[0], y_line.xy[1]))]
+                    list_multi_lines.append(y_line)
+
+        # Import line to json
+        list_json = []
+        for z_line in list_multi_lines:
+            list_json.append({
+                "geometry": {
+                    "coordinates": [z_line],
+                    "type": "MultiLineString"},
+                "properties": {
+                    "curvetype": "Track0"},  # "RightProjections" "LeftProjections"
+                "type": "Feature"})
+
+        dict_final = {
+            "features": list_json,
+            "type": "FeatureCollection"
+        }
+
+        with open(os.path.join(self.fold_spatial, path_ab_curve), 'w', encoding='UTF-8') as j:
+            json.dump(dict_final, j, indent=4)
+
 
 class CreateElement(Gen4FromShp):
 
-    def __init__(self, json_input, metadata_element, client='', field='', farm='', crop=''):
+    def __init__(self, json_input, metadata_element, client='', field='', farm='', crop='', id_process=''):
         super().__init__(json_input=json_input, output_log=[])
 
         self.client = client
-        self.id_client = unique_id(client)
+        self.id_client = unique_id(client + id_process)
         self.farm = farm
-        self.id_farm = unique_id(farm)
+        self.id_farm = unique_id(farm + id_process)
         self.field = field
-        self.id_field = unique_id(field)
+        self.id_field = unique_id(field + id_process)
         self.crop = crop
-        self.id_crop = unique_id(crop)
+        self.id_crop = unique_id(crop + id_process)
         self.source_node = unique_id('my_jd_farm')
         self.metadata_element = metadata_element
         self.time_now = now_time()
+        self.id_process = id_process
 
     def list_element_parse(self, name_element=''):
         """Parsing element to list of elements"""
@@ -756,24 +869,32 @@ class CreateElement(Gen4FromShp):
                         gdf: gpd.GeoDataFrame,
                         bool_Guidance: bool,
                         bool_ABLine: bool = True,
-                        bool_ABCurve: bool = False,
+                        bool_ABCurve: bool = True,
                         bool_Adaptive: bool = True,
                         lat: float = 49.0,
                         long: float = 16.0,
-                        idn: int = 0) -> object:
+                        dict_line_types=None,
+                        line_type_column: str = 'Type_line') -> object:
 
         """Guidance"""
+        if dict_line_types is None:
+            dict_line_types = {"AB Line": 1, "AB Curve": 2, "Adaptive Curve": 3}
+
         dict_output = {}
         element_guidance = self.list_element_parse('Guidance')[0]
         element_tracks = [x for x in element_guidance.findall('Tracks')][0]
         gdf = gdf_multi_single_line(gdf)
-        gdf_ab = gdf[gdf['count_point'] <= 2]
-        gdf_adaptive = gdf[gdf['count_point'] > 2]
+        gdf_ab = gdf[(gdf[line_type_column] == dict_line_types["AB Line"]) & (gdf['count_point'] == 2)]
+        gdf_ab_curve = gdf[gdf[line_type_column] == dict_line_types["AB Curve"]]
+        gdf_adaptive = gdf[(gdf[line_type_column] == dict_line_types["Adaptive Curve"]) |
+                           ((gdf[line_type_column] == dict_line_types["AB Line"]) &
+                            (gdf['count_point'] > 2))]
 
+        # Adaptive Curve
         if bool_Adaptive and not gdf_adaptive.empty:
 
             name_adaptive = f'Adapt-{diacritic(gdf_adaptive["ID_line"].iloc[0])}'
-            string_gui = unique_id(name_adaptive)
+            string_gui = unique_id(name_adaptive + self.id_process)
             path_adaptive = 'AdaptiveCurve' + string_gui + '.gjson'
 
             element_adaptive = [x for x in element_tracks.findall('AdaptiveCurve')][0]
@@ -792,7 +913,7 @@ class CreateElement(Gen4FromShp):
 
             # ReferenceLatitude + ReferenceLongitude
             element_reference_lat = [x for x in element_adaptive.findall('ReferenceLatitude')][0]
-            element_reference_lat.attrib['Value'] = str(lat) # ????
+            element_reference_lat.attrib['Value'] = str(lat)  # ????
             element_reference_long = [x for x in element_adaptive.findall('ReferenceLongitude')][0]
             element_reference_long.attrib['Value'] = str(long)  # ????
             dict_output['Adaptive'] = path_adaptive
@@ -812,13 +933,14 @@ class CreateElement(Gen4FromShp):
             # Create Adaptive Line to json
             super().create_geojson_adaptive_curve(dict_output['Adaptive'], gdf_adaptive)
 
+        # AB Line
         if bool_ABLine and not gdf_ab.empty:
 
             # Count point
             first_step = True
             for i in range(gdf_ab.shape[0]):
                 name_ab_line = f'AB-{diacritic(gdf_ab["ID_line"].iloc[i])}'
-                string_gui = unique_id(name_ab_line)
+                string_gui = unique_id(name_ab_line + self.id_process)
 
                 element_ab_line = [x for x in element_tracks.findall('ABLine')][0]
                 element_ab_line.attrib['SourceNode'] = self.source_node
@@ -837,13 +959,63 @@ class CreateElement(Gen4FromShp):
                 element_b_point.attrib['Latitude'] = str(np.array(gdf_ab.geometry.iloc[i].coords)[-1][1])
                 element_b_point.attrib['Longitude'] = str(np.array(gdf_ab.geometry.iloc[i].coords)[-1][0])
                 element_heading = [x for x in element_ab_line.findall('Heading')][0]
-                element_heading.attrib['Value'] = str(gdf['length'].iloc[i])
+                element_heading.attrib['Value'] = str(gdf_ab['length'].iloc[i])
 
                 # If create Guidance element
                 if bool_Guidance:
                     element_guidance_own = ET.Element('Guidance')
                     element_tracks_own = ET.SubElement(element_guidance_own, 'Tracks')
-                    element_tracks_own.append(element_ab_line)
+                    element_tracks_own.append(deepcopy(element_ab_line))
+                    element.append(deepcopy(element_guidance_own))
+                    bool_Guidance = False
+                else:
+                    if first_step:
+                        element_guidance_own = [x for x in element.findall('Guidance')][0]
+                        element_tracks_own = [x for x in element_guidance_own.findall('Tracks')][0]
+                        first_step = False
+                    element_tracks_own.append(deepcopy(element_ab_line))  # Very important for copy in memory!
+
+        # AB Curve
+        if bool_ABCurve and not gdf_ab_curve.empty:
+
+            # Count point
+            first_step = True
+            for i in range(gdf_ab_curve.shape[0]):
+
+                name_ab_curve = f'ABCurve-{diacritic(gdf_ab_curve["ID_line"].iloc[i])}'
+                string_gui = unique_id(name_ab_curve + self.id_process)
+                path_adaptive = 'ABCurve' + string_gui + '.gjson'
+
+                element_ab_curve = [x for x in element_tracks.findall('ABCurve')][0]
+                element_ab_curve.attrib['SourceNode'] = self.source_node
+                element_ab_curve.attrib['Name'] = name_ab_curve
+                element_ab_curve.attrib['TaggedEntity'] = self.id_field
+                element_ab_curve.attrib['SourceSystemClientId'] = self.id_field
+                element_ab_curve.attrib['StringGuid'] = string_gui
+                element_ab_curve.attrib['CreationDate'] = self.time_now
+                element_ab_curve.attrib['LastModifiedDate'] = self.time_now
+
+                # Geometry
+                element_geometry = [x for x in element_ab_curve.findall('Geometry')][0]
+                element_with_extension = [x for x in element_geometry.findall('FilenameWithExtension')][0]
+                element_with_extension.text = path_adaptive
+
+                # APoint + BPoint
+                element_a_point = [x for x in element_ab_curve.findall('APoint')][0]
+                element_a_point.attrib['Latitude'] = str(np.array(gdf_ab_curve.geometry.iloc[i].coords)[0][1])
+                element_a_point.attrib['Longitude'] = str(np.array(gdf_ab_curve.geometry.iloc[i].coords)[0][0])
+                element_b_point = [x for x in element_ab_curve.findall('BPoint')][0]
+                element_b_point.attrib['Latitude'] = str(np.array(gdf_ab_curve.geometry.iloc[i].coords)[-1][1])
+                element_b_point.attrib['Longitude'] = str(np.array(gdf_ab_curve.geometry.iloc[i].coords)[-1][0])
+                element_heading = [x for x in element_ab_curve.findall('Heading')][0]
+                element_heading.attrib['Value'] = str(gdf_ab_curve['length'].iloc[i])
+                dict_output['ABCurve'] = path_adaptive
+
+                # If create Guidance element
+                if bool_Guidance:
+                    element_guidance_own = ET.Element('Guidance')
+                    element_tracks_own = ET.SubElement(element_guidance_own, 'Tracks')
+                    element_tracks_own.append(element_ab_curve)
                     element.append(element_guidance_own)
                     bool_Guidance = False
                 else:
@@ -852,10 +1024,11 @@ class CreateElement(Gen4FromShp):
                         element_tracks_own = [x for x in element_guidance_own.findall('Tracks')][0]
                         first_step = False
 
-                    element_tracks_own.append(deepcopy(element_ab_line)) # Very important for copy in memory!
+                    element_tracks_own.append(deepcopy(element_ab_curve))
 
-        elif bool_ABCurve:
-            pass
+                    # Create Adaptive Line to json
+                super().create_geojson_ab_curve(dict_output['ABCurve'], gdf_ab_curve)
+
         else:
             pass
 
@@ -863,7 +1036,7 @@ class CreateElement(Gen4FromShp):
 
     def create_boundary(self, element: object, idn: int) -> object:
         """OperationalBoundary"""
-        name_boundary = self.field + str(idn)
+        name_boundary = self.field + str(idn) + self.id_process
         string_gui = unique_id(name_boundary)
         path_boundary = 'Boundary' + string_gui + '.gjson'
 
@@ -903,7 +1076,6 @@ class CreateElement(Gen4FromShp):
 
 
 def create_file(input_json, processBar=None):
-
     # Logging and turn of
     current_path = os.path.join(input_json['path_home'], 'log_gen4.log')
     logging.basicConfig(filename=current_path, level='INFO')
@@ -915,18 +1087,44 @@ def create_file(input_json, processBar=None):
         "matplotlib",
         "PIL"]
     for module in logger_blocklist:
-        # logging.getLogger(module).setLevel(logging.DEBUG)
         logging.getLogger(module).setLevel(logging.WARNING)
 
     logging.info("====================")
     logging.info('Cas: {} - START'.format(f'{datetime.datetime.now():%Y-%m-%d %H:%M:%S%z}'))
 
+    # Check if shapefile is existed
+    if not os.path.exists(input_json["shpFields"]):
+        path_shp = input_json["shpFields"]
+        output_folder = ""
+        output_log = [f"""<a>{now_time(john_deere=False)} - The path to the Shapefile with polygons does not exist:</a>""",
+                      f"""<a style="color: blue; text-decoration: underline;">{path_shp}</a>"""]
+
+        return output_log, output_folder
+
+    if not os.path.exists(input_json["shpGuide"]) and (len(input_json["shpGuide"]) > 0):
+        path_shp = input_json["shpGuide"]
+        output_folder = ""
+        output_log = [f"""<a>{now_time(john_deere=False)} - The path to the Shapefile with polylines does not exist:</a>""",
+                      f"""<a style="color: blue; text-decoration: underline;">{path_shp}</a>"""]
+
+        return output_log, output_folder
+
+    # Remove JD Data
+    fold_jd_data = os.path.dirname(input_json["shpFields"])
+    fold_jd_data = os.path.join(fold_jd_data, "JD data")
     try:
+        if os.path.isdir(fold_jd_data):
+            shutil.rmtree(fold_jd_data)
+
         input_json['json_metadat'] = os.path.join(input_json['path_home'], input_json['json_metadat'])
         gen4_from_shp = Gen4FromShp(input_json, output_log=[], processBar=processBar)
         gen4_from_shp.prepare_gdf()
         output_folder, output_log = gen4_from_shp.creat_setup_xml()
 
+    except PermissionError:
+        output_folder = ""
+        output_log = [my_print(f"The process cannot access the file in the JD data folder because "
+                               f"it is currently being used by another process!")]
     except Exception as e:
         output_folder = ""
         output_log = [my_print(
@@ -942,13 +1140,13 @@ if __name__ == '__main__':
     dict_test = {
     "path_home": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin",
     "json_metadat": "gen4_scripts/base_element/version1/metadata.json",
-    "shpFields": "D:/Documents/Vyzkum/JD_Geo4/_LinkedId/ZP_Slavkov_18-06-2024_06-10-51_III.shp",
-    "shpGuide": "D:/Documents/Vyzkum/JD_Geo4/_LinkedId/merge_all_lines.shp",
-    "clientName": "JARO 2023",
-    "farmColumn": "FARMAKU",
-    "fieldColumn": "NAZEVJD",
+    "shpFields": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin/data/boundary_polygon.shp",
+    "shpGuide": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin/data/navigation_line.shp",
+    "clientName": "ROSTENICE 2023",
+    "farmColumn": "STREDISKO",
+    "fieldColumn": "PARCELA",
     "cropColumn": "",
-    "lineColumn": "Name"
+    "lineColumn": "ID_str",
+    "lineColumnType": "Line_type"
 }
     create_file(dict_test)
-    

@@ -1,23 +1,115 @@
 INFO:root:====================
-INFO:root:Cas: 2024-06-19 05:24:29 - START
-INFO:root:Cas: 2024-06-19 05:25:00 - STOP
+INFO:root:Cas: 2024-08-21 14:57:17 - START
 INFO:root:====================
-INFO:root:Cas: 2024-06-19 05:25:53 - START
+INFO:root:Cas: 2024-08-21 14:58:06 - START
+INFO:root:====================
+INFO:root:Cas: 2024-08-21 15:00:37 - START
+INFO:root:Cas: 2024-08-21 15:00:52 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-21 16:30:14 - START
 ERROR:root:An exception was thrown!
 Traceback (most recent call last):
-  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 933, in create_file
-    output_folder, output_log = gen4_from_shp.creat_setup_xml()
-                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 452, in creat_setup_xml
-    self.create_geojson_boundary(path_boundary, x_row['geometry'])
-  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 582, in create_geojson_boundary
-    with open(os.path.join(self.fold_spatial, path_boundary), 'w', encoding='UTF-8') as j:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'D:/Documents/Vyzkum/JD_Geo4/_LinkedId/JD data\\Gen4\\SpatialFiles\\Boundary56e5fbd4-b6ee-5da7-9c80-c1062af1836a.gjson'
-INFO:root:Cas: 2024-06-19 05:26:50 - STOP
+  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 1120, in create_file
+    gen4_from_shp.prepare_gdf()
+  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 420, in prepare_gdf
+    self.gdf_lines[self.line_type_column] = self.gdf_lines[self.line_type_column].astype(int)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 6534, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 414, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 354, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\blocks.py", line 616, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 238, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 183, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 101, in _astype_nansafe
+    return _astype_float_to_int_nansafe(arr, dtype, copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 146, in _astype_float_to_int_nansafe
+    raise IntCastingNaNError(
+pandas.errors.IntCastingNaNError: Cannot convert non-finite values (NA or inf) to integer
+INFO:root:Cas: 2024-08-21 16:30:15 - STOP
 INFO:root:====================
-INFO:root:Cas: 2024-06-19 05:27:02 - START
-INFO:root:Cas: 2024-06-19 05:55:02 - STOP
+INFO:root:Cas: 2024-08-21 16:31:23 - START
+ERROR:root:An exception was thrown!
+Traceback (most recent call last):
+  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 1120, in create_file
+    gen4_from_shp.prepare_gdf()
+  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 420, in prepare_gdf
+    self.gdf_lines[self.line_type_column] = self.gdf_lines[self.line_type_column].astype(int)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 6534, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 414, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 354, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\blocks.py", line 616, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 238, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 183, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 101, in _astype_nansafe
+    return _astype_float_to_int_nansafe(arr, dtype, copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 146, in _astype_float_to_int_nansafe
+    raise IntCastingNaNError(
+pandas.errors.IntCastingNaNError: Cannot convert non-finite values (NA or inf) to integer
+INFO:root:Cas: 2024-08-21 16:31:24 - STOP
 INFO:root:====================
-INFO:root:Cas: 2024-06-19 06:06:20 - START
-INFO:root:Cas: 2024-06-19 06:34:05 - STOP
+INFO:root:Cas: 2024-08-21 16:31:47 - START
+ERROR:root:An exception was thrown!
+Traceback (most recent call last):
+  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 1120, in create_file
+    gen4_from_shp.prepare_gdf()
+  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 420, in prepare_gdf
+    self.gdf_lines[self.line_type_column] = self.gdf_lines[self.line_type_column].astype(int)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 6534, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 414, in astype
+    return self.apply(
+           ^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 354, in apply
+    applied = getattr(b, f)(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\blocks.py", line 616, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 238, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 183, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 101, in _astype_nansafe
+    return _astype_float_to_int_nansafe(arr, dtype, copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 146, in _astype_float_to_int_nansafe
+    raise IntCastingNaNError(
+pandas.errors.IntCastingNaNError: Cannot convert non-finite values (NA or inf) to integer
+INFO:root:Cas: 2024-08-21 16:31:48 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-21 16:32:18 - START
+INFO:root:Cas: 2024-08-21 16:35:23 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-21 16:35:25 - START
+INFO:root:Cas: 2024-08-21 16:35:46 - STOP

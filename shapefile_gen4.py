@@ -97,13 +97,18 @@ class ShapefileToGen4:
 
         # Check if plugin was started the first time in current QGIS session
         # Must be set in initGui() to survive plugin reloads
-        self.first_start = None
         self.layer_polygon_select = None
         self.layer_line_select = None
 
         # Create the dialog with elements (after translation) and keep reference
         self.dlg = None
         self.timer = QTimer()
+        self.tasks = []
+
+        # Folder of plugin
+        self.path_home = os.path.realpath(__file__)
+        self.path_home = os.path.dirname(self.path_home)
+        self.path_home = self.path_home.replace('\\', '/')
 
     def tr(self, message):
         """Get the translation for a string using Qt translation API.
@@ -203,9 +208,6 @@ class ShapefileToGen4:
             callback=self.run,
             parent=self.iface.mainWindow())
 
-        # will be set False in run()
-        self.first_start = True
-
     def unload(self):
         """Removes the plugin menu item and icon from QGIS GUI."""
         for action in self.actions:
@@ -233,18 +235,28 @@ class ShapefileToGen4:
             self.dlg.comboBox_6.clear()
             self.dlg.comboBox_6.addItems(list_fields)
 
-    def on_combobox_2_changed(self, index2):
+    def on_combobox_2_changed(self, index):
         """This method is called when the selection in the comboBox changes"""
 
         # Change all another Combox
-        selected_value_line = self.dlg.comboBox_2.itemText(index2)
+        selected_value_line = self.dlg.comboBox_2.itemText(index)
         self.dlg.comboBox_7.clear()
+        self.dlg.comboBox_8.clear()
 
         # List column lines
         if len(selected_value_line):
             self.layer_line_select = QgsProject.instance().mapLayersByName(selected_value_line)[0]
+
+            # For line names
             list_fields = [None] + [field.name() for field in self.layer_line_select.fields() if field.typeName() == 'String']
             self.dlg.comboBox_7.addItems(list_fields)
+
+            # For line types
+            int_types = ['Integer', 'Integer64', 'Float', 'Float64']
+            list_type_fields = [None] + [field.name() for field in self.layer_line_select.fields() if field.typeName() in int_types]
+            self.dlg.comboBox_8.addItems(list_type_fields)
+        else:
+            self.layer_line_select = None
 
     def on_button_clicked(self):
 
@@ -254,52 +266,53 @@ class ShapefileToGen4:
             not self.dlg.comboBox_3.currentText() or \
             not self.dlg.comboBox_4.currentText() or \
             not self.dlg.comboBox_5.currentText():
-            self.dlg.textEdit_2.append(f'{now_time(john_deere=False)} - Missing input values!')
+            self.dlg.textEdit_2.append(f'<a>{now_time(john_deere=False)} - Missing input values!</a>')
         elif self.dlg.comboBox_3.currentText() == self.dlg.comboBox_4.currentText():
-            self.dlg.textEdit_2.append(f'{now_time(john_deere=False)} - Do not input the same name of client and farm!')
+            self.dlg.textEdit_2.append(f'<a>{now_time(john_deere=False)} - Do not input the same name of client and farm!</a>')
         else:
             self.dlg.textEdit_2.clear()
             self.dlg.progressBar.setFormat("Running...")
+            os.chdir(self.path_home)
 
-            # Folder of plugin
-            path_home = os.path.realpath(__file__)
-            path_home = os.path.dirname(path_home)
-            path_home = path_home.replace('\\', '/')
-            os.chdir(path_home)
-
-            try:
+            if self.layer_line_select is not None:
                 path_line_selected = self.layer_line_select.source()
-            except AttributeError:
-                path_line_selected = ""
+            else:
+                path_line_selected = ''
 
             # Input data
             input_json = {
-                'path_home': path_home,
+                'path_home': self.path_home,
                 'json_metadat': 'gen4_scripts/base_element/version1/metadata.json',
-                'shpFields': self.layer_polygon_select.source(),
-                'shpGuide': path_line_selected,
+                'shpFields': self.layer_polygon_select.source().replace('\\', '/'),
+                'shpGuide': path_line_selected.replace('\\', '/'),
                 'clientName': self.dlg.comboBox_3.currentText(),  # 'CLIENT_NAM',
                 'farmColumn': self.dlg.comboBox_4.currentText(),  # 'FARM_NAME',
                 'fieldColumn': self.dlg.comboBox_5.currentText(),  # FIELD_NAME',
                 'cropColumn': self.dlg.comboBox_6.currentText(),  # 'CROP',
-                'lineColumn': self.dlg.comboBox_7.currentText() # Line
+                'lineColumn': self.dlg.comboBox_7.currentText(),
+                'lineColumnType': self.dlg.comboBox_8.currentText(),
             }
 
             # Save input Json
-            with open(os.path.join(path_home, 'gen4_scripts/input.json'), 'w', encoding='utf-8') as j:
+            with open('gen4_scripts/input.json', 'w', encoding='utf-8') as j:
                 json.dump(input_json, j, indent=4)
             globals()['task1'] = QgsTask.fromFunction('Convert Shapefiles to Gen4',
                                                       convert_gen4_task,
                                                       input_json=input_json,
                                                       text_edit=self.dlg.textEdit_2,
-                                                      progressBar=self.dlg.progressBar)
-            QgsApplication.taskManager().addTask(globals()['task1'])
+                                                      progressBar=self.dlg.progressBar,
+                                                      path_home=self.path_home)
+            task = globals()['task1']
+            QgsApplication.taskManager().addTask(task)
+            self.tasks.append(task)
 
     def func_end(self):
+
         # some code for your algorithm
         self.dlg.close()
+        self.dlg = None
 
-    def clearText(self):
+    def clear_text(self):
         # Clear the text in the QTextEdit widget
         self.dlg.textEdit_2.clear()
 
@@ -308,10 +321,7 @@ class ShapefileToGen4:
 
         current_path = os.path.realpath(__file__)
         logging.basicConfig(filename=os.path.join(os.path.dirname(current_path), 'log.log'), level='INFO')
-        # os.path.dirname(current_path)
-        if self.first_start:
-            self.first_start = False
-            self.dlg = ShapefileToGen4Dialog()
+        self.dlg = ShapefileToGen4Dialog()
 
         # Signal and slot settings
         self.dlg.textEdit.setReadOnly(True)
@@ -337,8 +347,8 @@ class ShapefileToGen4:
         self.dlg.comboBox_2.clear()
         self.dlg.comboBox_2.addItems([""] + layers_line)
 
-        # Run Process
-        self.clearText()
+        # Run process
+        self.clear_text()
         self.dlg.pushButton_3.clicked.connect(self.on_button_clicked)
 
         # Closed application
@@ -355,7 +365,7 @@ class ShapefileToGen4:
             pass
 
 
-def convert_gen4_task(task, input_json, text_edit, progressBar):
+def convert_gen4_task(task, input_json, text_edit, progressBar, path_home):
     """
     Raises an exception to abort the task.
     Returns a result if success.
@@ -365,29 +375,36 @@ def convert_gen4_task(task, input_json, text_edit, progressBar):
     """
 
     QgsMessageLog.logMessage('Started task {}'.format(task.description()), MESSAGE_CATEGORY, Qgis.Info)
-    text_edit.append(f'{now_time(john_deere=False)} - Running...')
+    text_edit.append(f'<a>{now_time(john_deere=False)} - Running...</a>')
 
-    progressBar.setFormat("Running...")
     progressBar.setRange(0, 0)
 
     try:
         # Subprocess
         output_info, output_folder = create_file(input_json, None)  # None
-        output_info = [x + '\n' for x in output_info]
-        output_info[-1] = output_info[-1].replace('\n', '')
+        output_info = [f"<p>{x}</p>" for x in output_info]
         output_info = ''.join(output_info)
+        output_info = """<style>p {margin: 0; padding: 0;}</style>""" + output_info
         text_edit.append(output_info)
+
+        # Control output process in HTML
+        file_path = os.path.join(path_home, "log_output.html")
+        with open(file_path, "w", encoding="utf-8") as file:
+            file.write(output_info)
 
     except Exception as e:
         print("An error occurred:", e)
-        text_edit.append(f'{now_time(john_deere=False)} - {e}')
+        text_edit.append(f'<a>{now_time(john_deere=False)} - {e}</a>')
         logging.info("An error occurred:", e)
 
     # Check if there were any error
     output_folder = output_folder.replace(r'\\', '/')
     if output_folder:
-        text_edit.append(f'{now_time(john_deere=False)} - Output folder: {os.path.dirname(output_folder)}')
-    text_edit.append(f'{now_time(john_deere=False)} - Gen4 completed!')
+        output_folder = os.path.dirname(output_folder)
+        text_edit.append(f"""<a>{now_time(john_deere=False)} - Output folder:</a>""")
+        text_edit.append(f"""<a style="color: blue; text-decoration: underline;">{output_folder}</a>""")
+
+    text_edit.append(f'<a>{now_time(john_deere=False)} - Gen4 completed!</a>')
     progressBar.setRange(0, 100)
 
     return {'task': task.description()}

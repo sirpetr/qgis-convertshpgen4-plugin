@@ -1,61 +1,30 @@
-<SetupFile xmlns:ns0="urn:schemas-johndeere-com:SetupCore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-johndeere-com:Setup"><SourceApp minor="0" major="1" build="0" revision="0" nameSourceApp="Setup Builder" SourceAppClientId="johndeere-NlESIMTmcy6RjpyfqM29F2BMlq4xsSstZwInorvW" /><FileSchemaVersion nonProductionCode="0"><FileSchemaContentVersion major="2" minor="33" /><UnitOfMeasureVersion major="1" minor="11" /><RepresentationSystemVersion major="3" minor="17" /></FileSchemaVersion><Setup><Client CreationDate="2024-06-13T15:45:17Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:17Z" Archived="false" StringGuid="bd362070-49b7-5caa-87d9-b9ca92fbccd8" Name="w" /><Farm CreationDate="2024-06-13T15:45:17Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:17Z" Archived="false" StringGuid="e51a60dd-ea39-530a-8b2d-86975892837c" Name="Komo&#197;&#153;any" Client="bd362070-49b7-5caa-87d9-b9ca92fbccd8" /><Farm CreationDate="2024-06-13T15:45:17Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:17Z" Archived="false" StringGuid="bb80aeea-dbd0-5dc9-8e24-72773076578c" Name="Otnice" Client="bd362070-49b7-5caa-87d9-b9ca92fbccd8" /><Field CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" SourceSystemClientId="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1" Archived="false" StringGuid="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 1"><Farm>e51a60dd-ea39-530a-8b2d-86975892837c</Farm></Field><Crop CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" Archived="false" Id="45" Name="Crop"><Weight Representation="vrCropWeightVolume" Value="23.59" SourceUnit="kg1bu-1" /><StandardPayableMoisture Representation="vrStandardPayableMoisture" Value="8.5" SourceUnit="prcnt" /></Crop><OperationalBoundary CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" SourceSystemClientId="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1" Archived="false" StringGuid="70361dd7-7fe8-5023-b6fe-4d2cee72e4a6" TaggedEntity="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 10"><SignalType Representation="dtSignalType" Value="dtiSignalTypeDigitized" /><Geometry><FilenameWithExtension>Boundary70361dd7-7fe8-5023-b6fe-4d2cee72e4a6.gjson</FilenameWithExtension><Path>./SpatialFiles/</Path></Geometry><ns0:VersionDelimiter>Version 2.33</ns0:VersionDelimiter><ns0:VersionsEnd>End</ns0:VersionsEnd></OperationalBoundary><Guidance><Tracks><AdaptiveCurve LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Adapt1_line_2" TaggedEntity="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="ad678e59-3578-5b75-9af9-0d6570ab2ea8" SourceSystemClientId="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1">
+<SetupFile xmlns:ns0="urn:schemas-johndeere-com:SetupCore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-johndeere-com:Setup"><SourceApp minor="0" major="1" build="0" revision="0" nameSourceApp="Setup Builder" SourceAppClientId="johndeere-NlESIMTmcy6RjpyfqM29F2BMlq4xsSstZwInorvW" /><FileSchemaVersion nonProductionCode="0"><FileSchemaContentVersion major="2" minor="33" /><UnitOfMeasureVersion major="1" minor="11" /><RepresentationSystemVersion major="3" minor="17" /></FileSchemaVersion><Setup><Client CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" Archived="false" StringGuid="7a87716a-057f-59e7-bdf0-57c3490b43e6" Name="ROSTENICE 2024" /><Farm CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" Archived="false" StringGuid="66524b3f-0667-527e-a7c4-da857ec0cc28" Name="Komo&#197;&#153;any" Client="7a87716a-057f-59e7-bdf0-57c3490b43e6" /><Farm CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" Archived="false" StringGuid="cc80894d-ed41-54fb-bdbb-5026c10865ef" Name="Otnice" Client="7a87716a-057f-59e7-bdf0-57c3490b43e6" /><Field CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" SourceSystemClientId="6592277a-66a0-5524-a111-1f06cfd93221" Archived="false" StringGuid="6592277a-66a0-5524-a111-1f06cfd93221" Name="Des&#195;&#161;tek od Podb&#197;&#153;e&#197;&#190;ic spodn&#195;&#173;"><Farm>66524b3f-0667-527e-a7c4-da857ec0cc28</Farm></Field><Crop CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" Archived="false" Id="45" Name="Crop"><Weight Representation="vrCropWeightVolume" Value="23.59" SourceUnit="kg1bu-1" /><StandardPayableMoisture Representation="vrStandardPayableMoisture" Value="8.5" SourceUnit="prcnt" /></Crop><OperationalBoundary CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" SourceSystemClientId="6592277a-66a0-5524-a111-1f06cfd93221" Archived="false" StringGuid="71e2e372-903d-55cd-9621-57efe6f1098f" TaggedEntity="6592277a-66a0-5524-a111-1f06cfd93221" Name="Des&#195;&#161;tek od Podb&#197;&#153;e&#197;&#190;ic spodn&#195;&#173;02024-08-27T07:40:47Z"><SignalType Representation="dtSignalType" Value="dtiSignalTypeDigitized" /><Geometry><FilenameWithExtension>Boundary71e2e372-903d-55cd-9621-57efe6f1098f.gjson</FilenameWithExtension><Path>./SpatialFiles/</Path></Geometry><ns0:VersionDelimiter>Version 2.33</ns0:VersionDelimiter><ns0:VersionsEnd>End</ns0:VersionsEnd></OperationalBoundary><Guidance><Tracks><ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_267_275" TaggedEntity="6592277a-66a0-5524-a111-1f06cfd93221" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="6fd59d37-d9d6-5790-ab43-fb4ca5956cb7" SourceSystemClientId="6592277a-66a0-5524-a111-1f06cfd93221">
      <Geometry>
-      <FilenameWithExtension>AdaptiveCurvead678e59-3578-5b75-9af9-0d6570ab2ea8.gjson</FilenameWithExtension>
+      <FilenameWithExtension>ABCurve6fd59d37-d9d6-5790-ab43-fb4ca5956cb7.gjson</FilenameWithExtension>
       <Path>./SpatialFiles/</Path>
      </Geometry>
      <SpatialProjection>
       <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
       <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
      </SpatialProjection>
-     <ReferenceLatitude SourceUnit="arcdeg" Value="49.2104588346076" Representation="vrLatitude" />
-     <ReferenceLongitude SourceUnit="arcdeg" Value="16.945820558571995" Representation="vrLongitude" />
-    </AdaptiveCurve>
-   <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_1" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="a0019b08-8691-5105-a8f0-893a78ffc3c4" TaggedEntity="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1" SourceSystemClientId="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.2104588346076" Longitude="16.945820558571995" />
-     <BPoint Latitude="49.212828158792554" Longitude="16.934453995755348" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="868.9562393763913" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_3" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="abcfabe7-6169-5283-8aa6-8806a2290bf1" TaggedEntity="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1" SourceSystemClientId="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.210105859697705" Longitude="16.945885639810456" />
-     <BPoint Latitude="49.21259886044907" Longitude="16.93392408372955" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="222.30311458622464" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_6" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="1faa281b-1f13-5ea2-84eb-b24c1970c2e8" TaggedEntity="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1" SourceSystemClientId="7f80b6c0-1770-56b8-bded-1ab6e2cf8ba1">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.212615158862555" Longitude="16.931689995996578" />
-     <BPoint Latitude="49.21264768824028" Longitude="16.931690361121298" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="914.435651420521" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <AdaptiveCurve LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Adapt1_line_10" TaggedEntity="40bd462b-f100-5d18-a3e1-b421662cb8a6" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="150b0aed-3d18-5d9b-9705-45261ca9bd18" SourceSystemClientId="40bd462b-f100-5d18-a3e1-b421662cb8a6">
+     <APoint Latitude="49.20884597785964" Longitude="16.921795989393445" />
+     <BPoint Latitude="49.20667685984926" Longitude="16.93534691462844" />
+     <Heading SourceUnit="arcdeg" Value="1214.4346700224685" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <AdaptiveCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Adapt-Line_245_253" TaggedEntity="66bfefd4-3844-5e99-8314-bfbc437cbfcc" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="bfdaa4f3-48f4-5c7d-a005-94c1439004ed" SourceSystemClientId="66bfefd4-3844-5e99-8314-bfbc437cbfcc">
      <Geometry>
-      <FilenameWithExtension>AdaptiveCurve150b0aed-3d18-5d9b-9705-45261ca9bd18.gjson</FilenameWithExtension>
+      <FilenameWithExtension>AdaptiveCurvebfdaa4f3-48f4-5c7d-a005-94c1439004ed.gjson</FilenameWithExtension>
       <Path>./SpatialFiles/</Path>
      </Geometry>
      <SpatialProjection>
       <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
       <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
      </SpatialProjection>
-     <ReferenceLatitude SourceUnit="arcdeg" Value="49.20953026031333" Representation="vrLatitude" />
-     <ReferenceLongitude SourceUnit="arcdeg" Value="16.945385684201995" Representation="vrLongitude" />
+     <ReferenceLatitude SourceUnit="arcdeg" Value="49.21046625491379" Representation="vrLatitude" />
+     <ReferenceLongitude SourceUnit="arcdeg" Value="16.94578906791122" Representation="vrLongitude" />
     </AdaptiveCurve>
-   <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_8" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="9a129c71-eebb-5536-9285-2b07c2a10faf" TaggedEntity="40bd462b-f100-5d18-a3e1-b421662cb8a6" SourceSystemClientId="40bd462b-f100-5d18-a3e1-b421662cb8a6">
+   <ABLine LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB-Line_1_1" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="4aaad720-cd35-586b-bf6a-e5026bc9d9c0" TaggedEntity="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" SourceSystemClientId="ac9a292f-b0f5-59e2-a677-77716fb4c1ed">
      <SpatialProjection>
       <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
       <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
@@ -66,41 +35,91 @@
      <Heading SourceUnit="arcdeg" Value="885.3281975536975" Representation="vrABLineHeading" />
      <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
     </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_9" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="3d1485e2-3b9c-5809-b399-1fd237d51487" TaggedEntity="40bd462b-f100-5d18-a3e1-b421662cb8a6" SourceSystemClientId="40bd462b-f100-5d18-a3e1-b421662cb8a6">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.21230918432144" Longitude="16.93368220027338" />
-     <BPoint Latitude="49.209794775208756" Longitude="16.945746469723872" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="922.2929354433702" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_13" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="65bd418a-7714-580a-964b-52c6a25a039e" TaggedEntity="40bd462b-f100-5d18-a3e1-b421662cb8a6" SourceSystemClientId="40bd462b-f100-5d18-a3e1-b421662cb8a6">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.208003586496375" Longitude="16.936674278894884" />
-     <BPoint Latitude="49.20957040155286" Longitude="16.929485450093523" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="108.68912941751276" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <AdaptiveCurve LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Adapt1_line_17" TaggedEntity="d9f14972-e130-5f96-8553-1328bfba929e" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="135bb171-e1a6-58fc-9caf-12197c7e8b51" SourceSystemClientId="d9f14972-e130-5f96-8553-1328bfba929e">
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_2_2" TaggedEntity="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="f2807fb8-5676-55bc-83fe-74645d3d0ed4" SourceSystemClientId="ac9a292f-b0f5-59e2-a677-77716fb4c1ed">
      <Geometry>
-      <FilenameWithExtension>AdaptiveCurve135bb171-e1a6-58fc-9caf-12197c7e8b51.gjson</FilenameWithExtension>
+      <FilenameWithExtension>ABCurvef2807fb8-5676-55bc-83fe-74645d3d0ed4.gjson</FilenameWithExtension>
       <Path>./SpatialFiles/</Path>
      </Geometry>
      <SpatialProjection>
       <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
       <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
      </SpatialProjection>
-     <ReferenceLatitude SourceUnit="arcdeg" Value="49.20827020040945" Representation="vrLatitude" />
-     <ReferenceLongitude SourceUnit="arcdeg" Value="16.944889645141075" Representation="vrLongitude" />
-    </AdaptiveCurve>
-   <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_15" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="d9ded816-feac-5e4f-b2b4-591602a48758" TaggedEntity="d9f14972-e130-5f96-8553-1328bfba929e" SourceSystemClientId="d9f14972-e130-5f96-8553-1328bfba929e">
+     <APoint Latitude="49.21230918432144" Longitude="16.93368220027338" />
+     <BPoint Latitude="49.209794775208756" Longitude="16.945746469723872" />
+     <Heading SourceUnit="arcdeg" Value="922.2929354433702" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_3_3" TaggedEntity="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="6a2d02d6-2d82-5506-89db-81a02a3a5624" SourceSystemClientId="ac9a292f-b0f5-59e2-a677-77716fb4c1ed">
+     <Geometry>
+      <FilenameWithExtension>ABCurve6a2d02d6-2d82-5506-89db-81a02a3a5624.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.209794775208756" Longitude="16.945746469723872" />
+     <BPoint Latitude="49.20886185449101" Longitude="16.945302480724934" />
+     <Heading SourceUnit="arcdeg" Value="108.68912941840182" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_4_4" TaggedEntity="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="48b1f17f-6ad5-5c80-b683-d26a811378ea" SourceSystemClientId="ac9a292f-b0f5-59e2-a677-77716fb4c1ed">
+     <Geometry>
+      <FilenameWithExtension>ABCurve48b1f17f-6ad5-5c80-b683-d26a811378ea.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.20886185449101" Longitude="16.945302480724934" />
+     <BPoint Latitude="49.21003466486791" Longitude="16.93696449731374" />
+     <Heading SourceUnit="arcdeg" Value="935.5511208359106" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_5_5" TaggedEntity="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="75b58c90-4eb4-5a87-8c45-c604d5317666" SourceSystemClientId="ac9a292f-b0f5-59e2-a677-77716fb4c1ed">
+     <Geometry>
+      <FilenameWithExtension>ABCurve75b58c90-4eb4-5a87-8c45-c604d5317666.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.21003466486791" Longitude="16.93696449731374" />
+     <BPoint Latitude="49.208003586496375" Longitude="16.936674278894884" />
+     <Heading SourceUnit="arcdeg" Value="233.03077433718659" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_6_6" TaggedEntity="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="8c5c8fd2-ee91-5461-a852-03e6ea810166" SourceSystemClientId="ac9a292f-b0f5-59e2-a677-77716fb4c1ed">
+     <Geometry>
+      <FilenameWithExtension>ABCurve8c5c8fd2-ee91-5461-a852-03e6ea810166.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.208003586496375" Longitude="16.936674278894884" />
+     <BPoint Latitude="49.20957040155286" Longitude="16.929485450093523" />
+     <Heading SourceUnit="arcdeg" Value="551.9535781065258" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_7_7" TaggedEntity="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="baada5ab-f6e8-5682-84c7-c1dc3ec3e85d" SourceSystemClientId="ac9a292f-b0f5-59e2-a677-77716fb4c1ed">
+     <Geometry>
+      <FilenameWithExtension>ABCurvebaada5ab-f6e8-5682-84c7-c1dc3ec3e85d.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.20957040155286" Longitude="16.929485450093523" />
+     <BPoint Latitude="49.21230918432144" Longitude="16.93368220027338" />
+     <Heading SourceUnit="arcdeg" Value="450.8372598168368" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABLine LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB-Line_8_8" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="2a6ebda2-f9aa-5f0c-8b77-a2d8a126c916" TaggedEntity="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" SourceSystemClientId="822f5ab5-4864-52cc-9fe4-cae685b0b1c3">
      <SpatialProjection>
       <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
       <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
@@ -111,31 +130,107 @@
      <Heading SourceUnit="arcdeg" Value="537.221466967777" Representation="vrABLineHeading" />
      <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
     </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_16" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="f79d7d50-54ae-561a-b9a3-ce7071bed919" TaggedEntity="d9f14972-e130-5f96-8553-1328bfba929e" SourceSystemClientId="d9f14972-e130-5f96-8553-1328bfba929e">
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_9_9" TaggedEntity="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="9bb2ff5d-d963-5025-ab3b-0927e4faf119" SourceSystemClientId="822f5ab5-4864-52cc-9fe4-cae685b0b1c3">
+     <Geometry>
+      <FilenameWithExtension>ABCurve9bb2ff5d-d963-5025-ab3b-0927e4faf119.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
      <SpatialProjection>
       <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
      </SpatialProjection>
      <APoint Latitude="49.21008236041269" Longitude="16.937825430898954" />
      <BPoint Latitude="49.20855534665197" Longitude="16.94514302283227" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="559.4994734485269" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_19" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="7407bf01-d739-5839-bc45-f39eac5ea636" TaggedEntity="d9f14972-e130-5f96-8553-1328bfba929e" SourceSystemClientId="d9f14972-e130-5f96-8553-1328bfba929e">
+     <Heading SourceUnit="arcdeg" Value="559.4994734485269" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_10_10" TaggedEntity="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="5f793598-4e00-578f-b7af-101709d87289" SourceSystemClientId="822f5ab5-4864-52cc-9fe4-cae685b0b1c3">
+     <Geometry>
+      <FilenameWithExtension>ABCurve5f793598-4e00-578f-b7af-101709d87289.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
      <SpatialProjection>
       <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.20855534665197" Longitude="16.94514302283227" />
+     <BPoint Latitude="49.2055888474474" Longitude="16.94413292949116" />
+     <Heading SourceUnit="arcdeg" Value="338.38913800289095" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_11_11" TaggedEntity="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="b68d43e7-8a9c-5353-8ae5-0c84d59e2c5d" SourceSystemClientId="822f5ab5-4864-52cc-9fe4-cae685b0b1c3">
+     <Geometry>
+      <FilenameWithExtension>ABCurveb68d43e7-8a9c-5353-8ae5-0c84d59e2c5d.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.2055888474474" Longitude="16.94413292949116" />
+     <BPoint Latitude="49.204429384808286" Longitude="16.94376377937499" />
+     <Heading SourceUnit="arcdeg" Value="132.3912191387644" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_12_12" TaggedEntity="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="bd4a50c1-6f38-5211-8a60-c8f7e4d1c4c3" SourceSystemClientId="822f5ab5-4864-52cc-9fe4-cae685b0b1c3">
+     <Geometry>
+      <FilenameWithExtension>ABCurvebd4a50c1-6f38-5211-8a60-c8f7e4d1c4c3.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
      </SpatialProjection>
      <APoint Latitude="49.204429384808286" Longitude="16.94376377937499" />
-     <BPoint Latitude="49.204892047330176" Longitude="16.94220927873528" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="338.3891380028862" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <AdaptiveCurve LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Adapt1_line_23" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="9ee9f8d4-5dcb-5ead-9bcd-4cd32d244442" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
+     <BPoint Latitude="49.20489204733017" Longitude="16.94220927873528" />
+     <Heading SourceUnit="arcdeg" Value="124.39808406959821" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_13_13" TaggedEntity="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="db9a59e2-3c76-5b0b-8181-c21cb04f4507" SourceSystemClientId="822f5ab5-4864-52cc-9fe4-cae685b0b1c3">
      <Geometry>
-      <FilenameWithExtension>AdaptiveCurve9ee9f8d4-5dcb-5ead-9bcd-4cd32d244442.gjson</FilenameWithExtension>
+      <FilenameWithExtension>ABCurvedb9a59e2-3c76-5b0b-8181-c21cb04f4507.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.20489204733017" Longitude="16.94220927873528" />
+     <BPoint Latitude="49.20736307854327" Longitude="16.938315672930003" />
+     <Heading SourceUnit="arcdeg" Value="454.23967169881166" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_14_14" TaggedEntity="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="1d13c1e5-42a7-5300-b952-5d4d2b6b5c45" SourceSystemClientId="822f5ab5-4864-52cc-9fe4-cae685b0b1c3">
+     <Geometry>
+      <FilenameWithExtension>ABCurve1d13c1e5-42a7-5300-b952-5d4d2b6b5c45.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.20736307854327" Longitude="16.938315672930003" />
+     <BPoint Latitude="49.20825551088319" Longitude="16.937399204409818" />
+     <Heading SourceUnit="arcdeg" Value="153.07315998631486" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <ABCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="ABCurve-Line_15_15" TaggedEntity="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="9670b1fa-a316-5074-b7a2-7baee3266836" SourceSystemClientId="822f5ab5-4864-52cc-9fe4-cae685b0b1c3">
+     <Geometry>
+      <FilenameWithExtension>ABCurve9670b1fa-a316-5074-b7a2-7baee3266836.gjson</FilenameWithExtension>
+      <Path>./SpatialFiles/</Path>
+     </Geometry>
+     <SpatialProjection>
+      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
+      <ElevationReferencePoint SourceUnit="mm" Value="0" Representation="vrElevation" />
+     </SpatialProjection>
+     <APoint Latitude="49.20825551088319" Longitude="16.937399204409818" />
+     <BPoint Latitude="49.21008236041269" Longitude="16.937825430898954" />
+     <Heading SourceUnit="arcdeg" Value="211.42496370251675" Representation="vrHeading" />
+     <OriginalTrackSpacing SourceUnit="mm" Value="2900" Representation="vrTrackSpacing" />
+    </ABCurve>
+    <AdaptiveCurve LastModifiedDate="2024-08-27T07:40:47Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="Adapt-Line_16_16" TaggedEntity="b21028d4-bf54-5224-b581-96a7b8343024" CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="dced6e7d-ff7e-5c86-a5d7-c952a1204fc3" SourceSystemClientId="b21028d4-bf54-5224-b581-96a7b8343024">
+     <Geometry>
+      <FilenameWithExtension>AdaptiveCurvedced6e7d-ff7e-5c86-a5d7-c952a1204fc3.gjson</FilenameWithExtension>
       <Path>./SpatialFiles/</Path>
      </Geometry>
      <SpatialProjection>
@@ -145,191 +240,4 @@
      <ReferenceLatitude SourceUnit="arcdeg" Value="49.07255851066679" Representation="vrLatitude" />
      <ReferenceLongitude SourceUnit="arcdeg" Value="16.806845902716304" Representation="vrLongitude" />
     </AdaptiveCurve>
-   <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_24" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="b35ef97a-fdbb-5974-bc10-7dffc84e4f55" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07324183534246" Longitude="16.800833120052516" />
-     <BPoint Latitude="49.07321337965398" Longitude="16.800803953176793" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="165.89745171122806" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_37" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="ecf6d8d0-9962-5a29-b46c-918be7a93c62" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07384569168933" Longitude="16.80730924388917" />
-     <BPoint Latitude="49.07384569168933" Longitude="16.807309243889165" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="3.814524568621081" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_50" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="df0bbbf5-48af-5cda-a522-06698d15c109" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.072376879292435" Longitude="16.80384584893438" />
-     <BPoint Latitude="49.072391982304154" Longitude="16.803844057457354" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="214.5376326898374" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_58" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="65f0d4a7-7c47-5121-ae25-946f8fbf7583" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07398770855778" Longitude="16.8040925581461" />
-     <BPoint Latitude="49.07396753247571" Longitude="16.803947204300076" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="99.97066615634736" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_89" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="a45a1d7e-d102-5d65-a4fc-3b8aab69844e" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.073203228346344" Longitude="16.808649977814298" />
-     <BPoint Latitude="49.07325018873943" Longitude="16.808647799184634" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="237.26965978358893" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_97" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="b4bede9b-d684-5f6e-80ad-459cb82edb40" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07317054428523" Longitude="16.808733373746236" />
-     <BPoint Latitude="49.07319808896687" Longitude="16.80873232017767" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="64.16068337140204" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_116" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="75267a61-8b2a-5486-943f-9b109d29dc4c" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.076493716700675" Longitude="16.802129888794116" />
-     <BPoint Latitude="49.076524301635914" Longitude="16.802199912735702" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="140.66714657046523" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_119" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="3f3981fc-fac7-53f6-b690-26394248c1e2" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07324448985082" Longitude="16.80894525763214" />
-     <BPoint Latitude="49.07324282392243" Longitude="16.80898673611842" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="498.2809992152458" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_122" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="b19549ba-689a-5b74-bc90-8c0b2e9e8357" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.0733018190059" Longitude="16.808864105001494" />
-     <BPoint Latitude="49.07329576546991" Longitude="16.809012278151712" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="440.98251709926376" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_125" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="668c9a22-7c97-5233-9fac-7086a5373b92" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07335983919748" Longitude="16.808769950314478" />
-     <BPoint Latitude="49.07334871135332" Longitude="16.809037822276895" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="44.53006845060628" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_129" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="6b26fc6f-cd0d-5116-a2b1-b742abe8ddca" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07616970416859" Longitude="16.80911804706028" />
-     <BPoint Latitude="49.07619084883241" Longitude="16.809172101866505" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="80.43043096168289" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_141" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="c6ab66af-de98-5491-9bf1-6daa10c227c0" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07619531816216" Longitude="16.806121696863677" />
-     <BPoint Latitude="49.07619531816216" Longitude="16.806121696863702" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="12.220022497189666" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_202" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="ecfa76eb-f02b-500f-a61a-bca44beab479" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.077227401833866" Longitude="16.798873738264174" />
-     <BPoint Latitude="49.07722932470016" Longitude="16.79906073411435" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="21.508393165984398" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_208" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="f83afb02-c7cd-5ddd-91a5-dfd6b52b5983" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07728149519727" Longitude="16.79886995469279" />
-     <BPoint Latitude="49.07728162457391" Longitude="16.798899992097432" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="536.8836577651319" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_238" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="5d1fbff9-50cf-5b82-a70d-63c2d0b632d6" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07318292525184" Longitude="16.80870574387501" />
-     <BPoint Latitude="49.073201678814485" Longitude="16.808653658739388" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="59.77336969836432" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_239" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="3eb50216-af78-5235-9061-eb62c48251d1" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.07314227008915" Longitude="16.80880833510517" />
-     <BPoint Latitude="49.07315445541382" Longitude="16.808777586216706" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="104.6016268121882" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    <ABLine LastModifiedDate="2024-06-13T15:45:18Z" LastModifiedNode="{cd655c5d-ffa2-4163-913f-f9d4038752e6}" Name="AB_line_247" CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" StringGuid="6f82eee2-5b79-5c5b-bf76-29c6583321f2" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce">
-     <SpatialProjection>
-      <ProjectionType Value="dtiProjectionDeere" Representation="dtProjectionType" />
-      <ElevationReferencePoint SourceUnit="m" Value="0" Representation="vrElevation" />
-     </SpatialProjection>
-     <APoint Latitude="49.076493716700675" Longitude="16.802129888794116" />
-     <BPoint Latitude="49.076524301635914" Longitude="16.802199912735702" />
-     <SaveMethod Value="dtiABLineMethodBPoint" Representation="dtABLineSaveMethod" />
-     <Heading SourceUnit="arcdeg" Value="2.3283064365386963e-10" Representation="vrABLineHeading" />
-     <OriginalTrackSpacing SourceUnit="mm" Value="6000" Representation="vrTrackSpacing" />
-    </ABLine>
-    </Tracks></Guidance><Field CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" SourceSystemClientId="40bd462b-f100-5d18-a3e1-b421662cb8a6" Archived="false" StringGuid="40bd462b-f100-5d18-a3e1-b421662cb8a6" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 2"><Farm>e51a60dd-ea39-530a-8b2d-86975892837c</Farm></Field><Crop CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" Archived="false" Id="45" Name="Crop"><Weight Representation="vrCropWeightVolume" Value="23.59" SourceUnit="kg1bu-1" /><StandardPayableMoisture Representation="vrStandardPayableMoisture" Value="8.5" SourceUnit="prcnt" /></Crop><OperationalBoundary CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" SourceSystemClientId="40bd462b-f100-5d18-a3e1-b421662cb8a6" Archived="false" StringGuid="8265aec1-4dff-52ac-9db3-a701c3d56aee" TaggedEntity="40bd462b-f100-5d18-a3e1-b421662cb8a6" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 21"><SignalType Representation="dtSignalType" Value="dtiSignalTypeDigitized" /><Geometry><FilenameWithExtension>Boundary8265aec1-4dff-52ac-9db3-a701c3d56aee.gjson</FilenameWithExtension><Path>./SpatialFiles/</Path></Geometry><ns0:VersionDelimiter>Version 2.33</ns0:VersionDelimiter><ns0:VersionsEnd>End</ns0:VersionsEnd></OperationalBoundary><Field CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" SourceSystemClientId="d9f14972-e130-5f96-8553-1328bfba929e" Archived="false" StringGuid="d9f14972-e130-5f96-8553-1328bfba929e" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 3"><Farm>e51a60dd-ea39-530a-8b2d-86975892837c</Farm></Field><Crop CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" Archived="false" Id="45" Name="Crop"><Weight Representation="vrCropWeightVolume" Value="23.59" SourceUnit="kg1bu-1" /><StandardPayableMoisture Representation="vrStandardPayableMoisture" Value="8.5" SourceUnit="prcnt" /></Crop><OperationalBoundary CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" SourceSystemClientId="d9f14972-e130-5f96-8553-1328bfba929e" Archived="false" StringGuid="672d4a78-9d45-5af2-a944-575e001f6ffb" TaggedEntity="d9f14972-e130-5f96-8553-1328bfba929e" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 32"><SignalType Representation="dtSignalType" Value="dtiSignalTypeDigitized" /><Geometry><FilenameWithExtension>Boundary672d4a78-9d45-5af2-a944-575e001f6ffb.gjson</FilenameWithExtension><Path>./SpatialFiles/</Path></Geometry><ns0:VersionDelimiter>Version 2.33</ns0:VersionDelimiter><ns0:VersionsEnd>End</ns0:VersionsEnd></OperationalBoundary><Field CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce" Archived="false" StringGuid="9d728f89-fd2b-55f3-934b-4aa75871e8ce" Name="Oulehle 1"><Farm>bb80aeea-dbd0-5dc9-8e24-72773076578c</Farm></Field><Crop CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" Archived="false" Id="45" Name="Crop"><Weight Representation="vrCropWeightVolume" Value="23.59" SourceUnit="kg1bu-1" /><StandardPayableMoisture Representation="vrStandardPayableMoisture" Value="8.5" SourceUnit="prcnt" /></Crop><OperationalBoundary CreationDate="2024-06-13T15:45:18Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-06-13T15:45:18Z" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce" Archived="false" StringGuid="8f68ebe9-4111-54ee-86de-485e9e2dd49d" TaggedEntity="9d728f89-fd2b-55f3-934b-4aa75871e8ce" Name="Oulehle 13"><SignalType Representation="dtSignalType" Value="dtiSignalTypeDigitized" /><Geometry><FilenameWithExtension>Boundary8f68ebe9-4111-54ee-86de-485e9e2dd49d.gjson</FilenameWithExtension><Path>./SpatialFiles/</Path></Geometry><ns0:VersionDelimiter>Version 2.33</ns0:VersionDelimiter><ns0:VersionsEnd>End</ns0:VersionsEnd></OperationalBoundary><Products /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="cdd99744-8a85-4215-8756-215a45a554c8" Name="P&#345;&#237;sada" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="7c1d277e-c1b0-4a76-94e1-ac53a630f4b1" Name="Fungicid" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="fb436e9c-2b11-43b4-8fe8-a5e69cd4bd44" Name="Insekticid" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="ca0687e8-8c87-4bac-8f65-20b124b82a70" Name="Herbicid" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="e443333a-e60b-4363-87f8-acc7fcd4eca5" Name="Regul&#225;tor r&#367;stu" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="077df20c-74e9-43e4-a9fc-e3c666cae578" Name="Stabiliz&#225;tor dus&#237;ku" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="c518ba6c-fea6-45ca-b666-219216efec65" Name="Pomocn&#225; l&#225;tka" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="a81750f5-8f21-40aa-98ac-ebe76879d71b" Name="Defoliant" /><FertilizerType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="eb2be46e-8876-44d4-9a05-5e2e874a8598" Name="Hn&#367;j" /><FertilizerType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="fd2bfe9d-51c6-46f4-98ef-d2a02d7859ea" Name="Hnojivo" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="846f75b4-32b3-4d79-836d-35f97aed7336" Name="Sen&#237;" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="fcda4068-992a-4bf6-ac69-d5e882bfa766" Name="S&#225;zen&#237;" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="c48ff03d-4ae2-4446-9e0e-2505e43b2572" Name="Post&#345;ik p&#345;ed v&#253;skyt." /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="3df13267-c5ee-4cc3-ab79-7cf013dc1e98" Name="Post&#345;ik po v&#253;skytu" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="fc3073ce-4cd0-4a45-b0d8-29be19fe8e9e" Name="Sklize&#328;" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="5839867b-ed2d-43ef-8214-27cc997b2dd4" Name="Orba" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="920a0b2f-668a-4480-b93c-de2d13c5b0a5" Name="Prvn&#237; sb&#283;r bavlny" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="c8a0dc9a-b163-4d0a-879e-b49e6758acc8" Name="Druh&#253; sb&#283;r bavlny" /><MachineType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="99edf0e0-4abb-42d3-9798-327439a39c38" Name="Skl&#237;ze&#269;ka p&#237;ce" ReferenceID="4" /><MachineModel SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="5b42251c-ff99-4987-a41c-af855dd4a0f7" Name="9900" MachineType="99edf0e0-4abb-42d3-9798-327439a39c38" ModelId="0" /><Machine SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="214a6c0e-5900-4e60-935a-95708f3d21b0" Name="9900 Jasno" SerialNumber="" MachineType="99edf0e0-4abb-42d3-9798-327439a39c38" MachineModel="5b42251c-ff99-4987-a41c-af855dd4a0f7"><MachineDefinition><MachineSettings><HitchType Representation="dtHitchType" Value="dtiFrontRigidThreePoint" /><Offsets><ReceiverOffset Representation="vrReceiverOffset" Value="0" SourceUnit="m" /><GPSToNonSteeringAxleOffset Representation="vrGPSToNonSteeringAxleOffset" Value="0" SourceUnit="m" /><MachineReceiverVerticalOffset Representation="vrMachineVerticalReceiverOffset" Value="0" SourceUnit="m" /><NonSteeringAxleLocation Representation="dtNonSteeringAxleLocation" Value="dtiFrontAxle" /><LateralOffsetType Representation="dtLateralOffsetType" Value="dtiLateralRight" /><ConnectionDistances><NonSteeringAxleToConnectionOffset Representation="vrNonSteeringAxleToConnectionOffset" Value="0" SourceUnit="m" /><ConnectionType Representation="dtHitchType" Value="dtiFrontRigidThreePoint" /></ConnectionDistances></Offsets></MachineSettings></MachineDefinition></Machine><FlagCategory CreationDate="2022-04-29T04:04:09.294Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2022-04-29T04:04:09.294Z" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce" Archived="false" StringGuid="a98734b7-21cc-4c82-85de-8dd22edb2d39" Name="test" /><FlagCategory CreationDate="2020-09-15T09:24:02.654Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2022-04-29T04:04:09.879Z" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce" Archived="false" StringGuid="688c20bb-9609-4590-95c9-649ba65c06df" Name="Rocks" /><FlagCategory CreationDate="2020-09-15T09:24:02.654Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2022-04-29T04:04:09.876Z" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce" Archived="false" StringGuid="2eced4e2-8601-469c-90ff-f68928e75d96" Name="Field Notes" /><FlagCategory CreationDate="2020-09-15T09:24:02.654Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2022-04-29T04:04:09.883Z" SourceSystemClientId="9d728f89-fd2b-55f3-934b-4aa75871e8ce" Archived="false" StringGuid="186b9781-04e3-4c8a-a872-fe9fa1493914" Name="Weeds" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="0f592078-a596-477d-8e6a-8f12a50b7389" Name="Typ orby"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="6c55529d-5b4d-4e3e-b986-18cebf54f4d6" Name="Prvn&#237; orba" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="4e51f08c-5e52-42fb-b1b0-0732207e189a" Name="Druh&#225; orba" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="ddaf2662-df39-488d-9a40-2fec15887cd7" Name="Rota&#269;n&#237; kyp&#345;idlo" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="842c34a2-0585-4d3d-b115-33788f0c62e8" Name="Kultivace &#345;. plodin" /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="59af1349-f54c-456c-b8f5-6d1496bcf1c8" Name="Sen&#237;OrbaPraxe"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="8ab0c735-dcbb-4495-bdd6-7879fcb7fe6c" Name="Bez orby" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="eb1fa803-302b-464b-b133-fdc36b2c5513" Name="&#344;&#225;dkov&#225; orba" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="248d0627-d13a-4f9c-968f-ba9ea8b5e205" Name="Obor&#225;n&#237;" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="c9c74920-e920-44ea-b28b-c4c65b9b0cdc" Name="Mul&#269;ovac&#237; orba" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="f84ce98b-564b-4dc8-98e1-7a2fc3129d0e" Name="Omezen&#225; orba" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="a0e97081-48ca-4ff5-b4d6-313fd6d849a3" Name="B&#283;&#382;n&#225; orba" /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="93a85c5d-7d67-4e3f-9561-95b34fb0207d" Name="Typ zprac. zbytk&#367;"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="d4765065-fc8e-4787-a222-98f120bfd51c" Name="Kladen&#237; do &#345;&#225;dk&#367;" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="936bfac4-cf82-4f8c-b8cd-7fabb588dcf2" Name="Sekan&#233;" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="03b73715-7d6f-49be-b202-77cb07c5417f" Name="Rozmet&#225;n&#237;" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="66bb9df6-1b66-4164-b006-a7f5c234ceee" Name="Sek&#225;n&#237; a rozmet&#225;n&#237;" /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="db4f1d89-8a19-4d02-a821-1db3926502c4" Name="N&#225;kladn&#237; voz&#237;k"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="8bb60273-e533-422d-8709-7a90482b98c9" Name="Vle&#269;ka na zrn&#237;" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="20e7565c-549e-4a6a-ba94-dd70d4e53c69" Name="Vle&#269;ka na bavlnu" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="5f79968b-5cf7-4029-bfdd-789e36608b9c" Name="N&#225;kladn&#237; v&#367;z" /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="40a883b1-da87-491e-95c2-9187b6a65b5a" Name="C&#237;lov&#233; m&#237;sto zrna" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="3703f56b-6a44-436f-a3a5-8b95770e7da2" Name="Hodn&#283; o&#269;kovadla typu"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="75a26448-4fbc-4f6d-8eba-fb274d1e57f8" Name="Vysokoobjemov&#233; adit." /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="bc3d52e3-7117-44e1-ae2a-b3d4659a1910" Name="M&#225;lo o&#269;kovadla typu"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="1d2f9d4d-6506-409f-bdeb-3fd5a938f1d2" Name="N&#237;zkoobjemov&#233; adit." /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="e47b11f4-9495-4c36-a474-dd2e6558acf1" Name="Jin&#253; typ" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="f5123955-8825-489c-be90-c159e994dec9" Name="P&#345;eprava" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="db972a66-da82-4bb2-998c-361d2c34f37c" Name="Bal&#237;kov&#225;n&#237;" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="c1e7103d-2ee2-4781-bd3c-0bc3f647905b" Name="Provzdu&#353;n&#283;n&#237;" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="b6326cad-3757-483f-8ade-6583f931a0ee" Name="R&#367;zn&#233;" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="f775799a-41a8-4548-81bd-b06421c509ad" Name="Se&#269;en&#237;" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="84d15525-1727-414d-a7fc-87d3fb900858" Name="Pozorov&#225;n&#237;" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="9b031e2d-672b-4ac1-ad2a-b4396fe2e1b1" Name="Odb&#283;r p&#367;dy" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><SourceInformation><DisplayName>GS4_4600</DisplayName><Version>1.0.0.0</Version><SourceApplication>Setup Builder</SourceApplication></SourceInformation></Setup></SetupFile>
+   </Tracks></Guidance><Field CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" SourceSystemClientId="66bfefd4-3844-5e99-8314-bfbc437cbfcc" Archived="false" StringGuid="66bfefd4-3844-5e99-8314-bfbc437cbfcc" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 1"><Farm>66524b3f-0667-527e-a7c4-da857ec0cc28</Farm></Field><Crop CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" Archived="false" Id="45" Name="Crop"><Weight Representation="vrCropWeightVolume" Value="23.59" SourceUnit="kg1bu-1" /><StandardPayableMoisture Representation="vrStandardPayableMoisture" Value="8.5" SourceUnit="prcnt" /></Crop><OperationalBoundary CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" SourceSystemClientId="66bfefd4-3844-5e99-8314-bfbc437cbfcc" Archived="false" StringGuid="c76b574d-9fe6-5eb2-a9a8-6d97cca5fb7b" TaggedEntity="66bfefd4-3844-5e99-8314-bfbc437cbfcc" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 112024-08-27T07:40:47Z"><SignalType Representation="dtSignalType" Value="dtiSignalTypeDigitized" /><Geometry><FilenameWithExtension>Boundaryc76b574d-9fe6-5eb2-a9a8-6d97cca5fb7b.gjson</FilenameWithExtension><Path>./SpatialFiles/</Path></Geometry><ns0:VersionDelimiter>Version 2.33</ns0:VersionDelimiter><ns0:VersionsEnd>End</ns0:VersionsEnd></OperationalBoundary><Field CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" SourceSystemClientId="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" Archived="false" StringGuid="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 2"><Farm>66524b3f-0667-527e-a7c4-da857ec0cc28</Farm></Field><Crop CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" Archived="false" Id="45" Name="Crop"><Weight Representation="vrCropWeightVolume" Value="23.59" SourceUnit="kg1bu-1" /><StandardPayableMoisture Representation="vrStandardPayableMoisture" Value="8.5" SourceUnit="prcnt" /></Crop><OperationalBoundary CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" SourceSystemClientId="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" Archived="false" StringGuid="32769b64-ea15-5f87-a91a-160bbd8b1175" TaggedEntity="ac9a292f-b0f5-59e2-a677-77716fb4c1ed" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 222024-08-27T07:40:47Z"><SignalType Representation="dtSignalType" Value="dtiSignalTypeDigitized" /><Geometry><FilenameWithExtension>Boundary32769b64-ea15-5f87-a91a-160bbd8b1175.gjson</FilenameWithExtension><Path>./SpatialFiles/</Path></Geometry><ns0:VersionDelimiter>Version 2.33</ns0:VersionDelimiter><ns0:VersionsEnd>End</ns0:VersionsEnd></OperationalBoundary><Field CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" SourceSystemClientId="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" Archived="false" StringGuid="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 3"><Farm>66524b3f-0667-527e-a7c4-da857ec0cc28</Farm></Field><Crop CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" Archived="false" Id="45" Name="Crop"><Weight Representation="vrCropWeightVolume" Value="23.59" SourceUnit="kg1bu-1" /><StandardPayableMoisture Representation="vrStandardPayableMoisture" Value="8.5" SourceUnit="prcnt" /></Crop><OperationalBoundary CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" SourceSystemClientId="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" Archived="false" StringGuid="96fcb862-0f49-5e83-8b99-4b2b8ab25467" TaggedEntity="822f5ab5-4864-52cc-9fe4-cae685b0b1c3" Name="Des&#195;&#161;tek u Dra&#197;&#190;ovic od panelky 332024-08-27T07:40:47Z"><SignalType Representation="dtSignalType" Value="dtiSignalTypeDigitized" /><Geometry><FilenameWithExtension>Boundary96fcb862-0f49-5e83-8b99-4b2b8ab25467.gjson</FilenameWithExtension><Path>./SpatialFiles/</Path></Geometry><ns0:VersionDelimiter>Version 2.33</ns0:VersionDelimiter><ns0:VersionsEnd>End</ns0:VersionsEnd></OperationalBoundary><Field CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" SourceSystemClientId="b21028d4-bf54-5224-b581-96a7b8343024" Archived="false" StringGuid="b21028d4-bf54-5224-b581-96a7b8343024" Name="Oulehle 1"><Farm>cc80894d-ed41-54fb-bdbb-5026c10865ef</Farm></Field><Crop CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" Archived="false" Id="45" Name="Crop"><Weight Representation="vrCropWeightVolume" Value="23.59" SourceUnit="kg1bu-1" /><StandardPayableMoisture Representation="vrStandardPayableMoisture" Value="8.5" SourceUnit="prcnt" /></Crop><OperationalBoundary CreationDate="2024-08-27T07:40:47Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2024-08-27T07:40:47Z" SourceSystemClientId="b21028d4-bf54-5224-b581-96a7b8343024" Archived="false" StringGuid="4d01ae00-78f1-5151-b999-8e424a3d3328" TaggedEntity="b21028d4-bf54-5224-b581-96a7b8343024" Name="Oulehle 142024-08-27T07:40:47Z"><SignalType Representation="dtSignalType" Value="dtiSignalTypeDigitized" /><Geometry><FilenameWithExtension>Boundary4d01ae00-78f1-5151-b999-8e424a3d3328.gjson</FilenameWithExtension><Path>./SpatialFiles/</Path></Geometry><ns0:VersionDelimiter>Version 2.33</ns0:VersionDelimiter><ns0:VersionsEnd>End</ns0:VersionsEnd></OperationalBoundary><Products /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="cdd99744-8a85-4215-8756-215a45a554c8" Name="P&#345;&#237;sada" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="7c1d277e-c1b0-4a76-94e1-ac53a630f4b1" Name="Fungicid" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="fb436e9c-2b11-43b4-8fe8-a5e69cd4bd44" Name="Insekticid" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="ca0687e8-8c87-4bac-8f65-20b124b82a70" Name="Herbicid" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="e443333a-e60b-4363-87f8-acc7fcd4eca5" Name="Regul&#225;tor r&#367;stu" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="077df20c-74e9-43e4-a9fc-e3c666cae578" Name="Stabiliz&#225;tor dus&#237;ku" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="c518ba6c-fea6-45ca-b666-219216efec65" Name="Pomocn&#225; l&#225;tka" /><ChemicalType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="a81750f5-8f21-40aa-98ac-ebe76879d71b" Name="Defoliant" /><FertilizerType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="eb2be46e-8876-44d4-9a05-5e2e874a8598" Name="Hn&#367;j" /><FertilizerType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="fd2bfe9d-51c6-46f4-98ef-d2a02d7859ea" Name="Hnojivo" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="846f75b4-32b3-4d79-836d-35f97aed7336" Name="Sen&#237;" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="fcda4068-992a-4bf6-ac69-d5e882bfa766" Name="S&#225;zen&#237;" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="c48ff03d-4ae2-4446-9e0e-2505e43b2572" Name="Post&#345;ik p&#345;ed v&#253;skyt." /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="3df13267-c5ee-4cc3-ab79-7cf013dc1e98" Name="Post&#345;ik po v&#253;skytu" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="fc3073ce-4cd0-4a45-b0d8-29be19fe8e9e" Name="Sklize&#328;" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="5839867b-ed2d-43ef-8214-27cc997b2dd4" Name="Orba" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="920a0b2f-668a-4480-b93c-de2d13c5b0a5" Name="Prvn&#237; sb&#283;r bavlny" /><WorkDescriptor SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="c8a0dc9a-b163-4d0a-879e-b49e6758acc8" Name="Druh&#253; sb&#283;r bavlny" /><MachineType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="99edf0e0-4abb-42d3-9798-327439a39c38" Name="Skl&#237;ze&#269;ka p&#237;ce" ReferenceID="4" /><MachineModel SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="5b42251c-ff99-4987-a41c-af855dd4a0f7" Name="9900" MachineType="99edf0e0-4abb-42d3-9798-327439a39c38" ModelId="0" /><Machine SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="1970-01-01T00:00:00Z" Archived="false" StringGuid="214a6c0e-5900-4e60-935a-95708f3d21b0" Name="9900 Jasno" SerialNumber="" MachineType="99edf0e0-4abb-42d3-9798-327439a39c38" MachineModel="5b42251c-ff99-4987-a41c-af855dd4a0f7"><MachineDefinition><MachineSettings><HitchType Representation="dtHitchType" Value="dtiFrontRigidThreePoint" /><Offsets><ReceiverOffset Representation="vrReceiverOffset" Value="0" SourceUnit="m" /><GPSToNonSteeringAxleOffset Representation="vrGPSToNonSteeringAxleOffset" Value="0" SourceUnit="m" /><MachineReceiverVerticalOffset Representation="vrMachineVerticalReceiverOffset" Value="0" SourceUnit="m" /><NonSteeringAxleLocation Representation="dtNonSteeringAxleLocation" Value="dtiFrontAxle" /><LateralOffsetType Representation="dtLateralOffsetType" Value="dtiLateralRight" /><ConnectionDistances><NonSteeringAxleToConnectionOffset Representation="vrNonSteeringAxleToConnectionOffset" Value="0" SourceUnit="m" /><ConnectionType Representation="dtHitchType" Value="dtiFrontRigidThreePoint" /></ConnectionDistances></Offsets></MachineSettings></MachineDefinition></Machine><FlagCategory CreationDate="2022-04-29T04:04:09.294Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2022-04-29T04:04:09.294Z" SourceSystemClientId="b21028d4-bf54-5224-b581-96a7b8343024" Archived="false" StringGuid="a98734b7-21cc-4c82-85de-8dd22edb2d39" Name="test" /><FlagCategory CreationDate="2020-09-15T09:24:02.654Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2022-04-29T04:04:09.879Z" SourceSystemClientId="b21028d4-bf54-5224-b581-96a7b8343024" Archived="false" StringGuid="688c20bb-9609-4590-95c9-649ba65c06df" Name="Rocks" /><FlagCategory CreationDate="2020-09-15T09:24:02.654Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2022-04-29T04:04:09.876Z" SourceSystemClientId="b21028d4-bf54-5224-b581-96a7b8343024" Archived="false" StringGuid="2eced4e2-8601-469c-90ff-f68928e75d96" Name="Field Notes" /><FlagCategory CreationDate="2020-09-15T09:24:02.654Z" SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2022-04-29T04:04:09.883Z" SourceSystemClientId="b21028d4-bf54-5224-b581-96a7b8343024" Archived="false" StringGuid="186b9781-04e3-4c8a-a872-fe9fa1493914" Name="Weeds" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="0f592078-a596-477d-8e6a-8f12a50b7389" Name="Typ orby"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="6c55529d-5b4d-4e3e-b986-18cebf54f4d6" Name="Prvn&#237; orba" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="4e51f08c-5e52-42fb-b1b0-0732207e189a" Name="Druh&#225; orba" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="ddaf2662-df39-488d-9a40-2fec15887cd7" Name="Rota&#269;n&#237; kyp&#345;idlo" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="842c34a2-0585-4d3d-b115-33788f0c62e8" Name="Kultivace &#345;. plodin" /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="59af1349-f54c-456c-b8f5-6d1496bcf1c8" Name="Sen&#237;OrbaPraxe"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="8ab0c735-dcbb-4495-bdd6-7879fcb7fe6c" Name="Bez orby" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="eb1fa803-302b-464b-b133-fdc36b2c5513" Name="&#344;&#225;dkov&#225; orba" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="248d0627-d13a-4f9c-968f-ba9ea8b5e205" Name="Obor&#225;n&#237;" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="c9c74920-e920-44ea-b28b-c4c65b9b0cdc" Name="Mul&#269;ovac&#237; orba" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="f84ce98b-564b-4dc8-98e1-7a2fc3129d0e" Name="Omezen&#225; orba" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="a0e97081-48ca-4ff5-b4d6-313fd6d849a3" Name="B&#283;&#382;n&#225; orba" /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="93a85c5d-7d67-4e3f-9561-95b34fb0207d" Name="Typ zprac. zbytk&#367;"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="d4765065-fc8e-4787-a222-98f120bfd51c" Name="Kladen&#237; do &#345;&#225;dk&#367;" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="936bfac4-cf82-4f8c-b8cd-7fabb588dcf2" Name="Sekan&#233;" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="03b73715-7d6f-49be-b202-77cb07c5417f" Name="Rozmet&#225;n&#237;" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="66bb9df6-1b66-4164-b006-a7f5c234ceee" Name="Sek&#225;n&#237; a rozmet&#225;n&#237;" /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="db4f1d89-8a19-4d02-a821-1db3926502c4" Name="N&#225;kladn&#237; voz&#237;k"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="8bb60273-e533-422d-8709-7a90482b98c9" Name="Vle&#269;ka na zrn&#237;" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="20e7565c-549e-4a6a-ba94-dd70d4e53c69" Name="Vle&#269;ka na bavlnu" /><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="5f79968b-5cf7-4029-bfdd-789e36608b9c" Name="N&#225;kladn&#237; v&#367;z" /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="40a883b1-da87-491e-95c2-9187b6a65b5a" Name="C&#237;lov&#233; m&#237;sto zrna" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="3703f56b-6a44-436f-a3a5-8b95770e7da2" Name="Hodn&#283; o&#269;kovadla typu"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="75a26448-4fbc-4f6d-8eba-fb274d1e57f8" Name="Vysokoobjemov&#233; adit." /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="bc3d52e3-7117-44e1-ae2a-b3d4659a1910" Name="M&#225;lo o&#269;kovadla typu"><UserDefinedTypeInstance SourceNode="63bb0e30-cb38-4faf-9e1c-c0760ce01ee6" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="1d2f9d4d-6506-409f-bdeb-3fd5a938f1d2" Name="N&#237;zkoobjemov&#233; adit." /></UserDefinedType><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="e47b11f4-9495-4c36-a474-dd2e6558acf1" Name="Jin&#253; typ" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="f5123955-8825-489c-be90-c159e994dec9" Name="P&#345;eprava" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="db972a66-da82-4bb2-998c-361d2c34f37c" Name="Bal&#237;kov&#225;n&#237;" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="c1e7103d-2ee2-4781-bd3c-0bc3f647905b" Name="Provzdu&#353;n&#283;n&#237;" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="b6326cad-3757-483f-8ade-6583f931a0ee" Name="R&#367;zn&#233;" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="f775799a-41a8-4548-81bd-b06421c509ad" Name="Se&#269;en&#237;" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="84d15525-1727-414d-a7fc-87d3fb900858" Name="Pozorov&#225;n&#237;" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><UserDefinedType SourceNode="42e8afb9-b6d1-5777-b66b-6024bd99cff8" LastModifiedDate="2014-10-24T00:00:00Z" Archived="false" StringGuid="9b031e2d-672b-4ac1-ad2a-b4396fe2e1b1" Name="Odb&#283;r p&#367;dy" Parent="e47b11f4-9495-4c36-a474-dd2e6558acf1" /><SourceInformation><DisplayName>GS4_4600</DisplayName><Version>1.0.0.0</Version><SourceApplication>Setup Builder</SourceApplication></SourceInformation></Setup></SetupFile>

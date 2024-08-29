@@ -54,3 +54,47 @@ INFO:root:Cas: 2024-08-27 07:40:34 - STOP
 INFO:root:====================
 INFO:root:Cas: 2024-08-27 07:40:47 - START
 INFO:root:Cas: 2024-08-27 07:40:47 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-27 14:56:03 - START
+INFO:root:Cas: 2024-08-27 14:57:19 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-28 20:12:18 - START
+INFO:root:Cas: 2024-08-28 20:12:19 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-28 20:26:16 - START
+INFO:root:Cas: 2024-08-28 20:26:18 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 10:46:47 - START
+ERROR:root:An exception was thrown!
+Traceback (most recent call last):
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 1122, in create_file
+    output_folder, output_log = gen4_from_shp.creat_setup_xml()
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/Petr/AppData/Roaming/QGIS/QGIS3\profiles\default/python/plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 454, in creat_setup_xml
+    gdf_first_select = self.gdf_fields[columns_select].groupby(self.client_column, as_index=False).first()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PROGRA~1\QGIS33~2.2\apps\Python312\Lib\site-packages\pandas\core\frame.py", line 9183, in groupby
+    return DataFrameGroupBy(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\PROGRA~1\QGIS33~2.2\apps\Python312\Lib\site-packages\pandas\core\groupby\groupby.py", line 1329, in __init__
+    grouper, exclusions, obj = get_grouper(
+                               ^^^^^^^^^^^^
+  File "C:\PROGRA~1\QGIS33~2.2\apps\Python312\Lib\site-packages\pandas\core\groupby\grouper.py", line 1038, in get_grouper
+    raise ValueError(f"Grouper for '{name}' not 1-dimensional")
+ValueError: Grouper for 'Client' not 1-dimensional
+INFO:root:Cas: 2024-08-29 10:46:48 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 10:47:14 - START
+INFO:root:Cas: 2024-08-29 10:47:14 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 10:53:04 - START
+INFO:root:Cas: 2024-08-29 10:53:04 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 11:51:12 - START
+INFO:root:Cas: 2024-08-29 11:51:12 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 11:57:54 - START
+INFO:root:Cas: 2024-08-29 11:57:54 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 11:58:40 - START
+INFO:root:Cas: 2024-08-29 11:58:40 - STOP

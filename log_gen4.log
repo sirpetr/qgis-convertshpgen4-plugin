@@ -1,115 +1,45 @@
 INFO:root:====================
-INFO:root:Cas: 2024-08-21 14:57:17 - START
+INFO:root:Cas: 2024-08-29 11:03:21 - START
+INFO:root:Cas: 2024-08-29 11:04:59 - STOP
 INFO:root:====================
-INFO:root:Cas: 2024-08-21 14:58:06 - START
+INFO:root:Cas: 2024-08-29 11:05:02 - START
+INFO:root:Cas: 2024-08-29 11:06:18 - STOP
 INFO:root:====================
-INFO:root:Cas: 2024-08-21 15:00:37 - START
-INFO:root:Cas: 2024-08-21 15:00:52 - STOP
+INFO:root:Cas: 2024-08-29 11:07:32 - START
+INFO:root:Cas: 2024-08-29 11:10:05 - STOP
 INFO:root:====================
-INFO:root:Cas: 2024-08-21 16:30:14 - START
-ERROR:root:An exception was thrown!
-Traceback (most recent call last):
-  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 1120, in create_file
-    gen4_from_shp.prepare_gdf()
-  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 420, in prepare_gdf
-    self.gdf_lines[self.line_type_column] = self.gdf_lines[self.line_type_column].astype(int)
-                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 6534, in astype
-    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 414, in astype
-    return self.apply(
-           ^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 354, in apply
-    applied = getattr(b, f)(**kwargs)
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\blocks.py", line 616, in astype
-    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 238, in astype_array_safe
-    new_values = astype_array(values, dtype, copy=copy)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 183, in astype_array
-    values = _astype_nansafe(values, dtype, copy=copy)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 101, in _astype_nansafe
-    return _astype_float_to_int_nansafe(arr, dtype, copy)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 146, in _astype_float_to_int_nansafe
-    raise IntCastingNaNError(
-pandas.errors.IntCastingNaNError: Cannot convert non-finite values (NA or inf) to integer
-INFO:root:Cas: 2024-08-21 16:30:15 - STOP
+INFO:root:Cas: 2024-08-29 11:10:08 - START
+INFO:root:Cas: 2024-08-29 11:14:56 - STOP
 INFO:root:====================
-INFO:root:Cas: 2024-08-21 16:31:23 - START
-ERROR:root:An exception was thrown!
-Traceback (most recent call last):
-  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 1120, in create_file
-    gen4_from_shp.prepare_gdf()
-  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 420, in prepare_gdf
-    self.gdf_lines[self.line_type_column] = self.gdf_lines[self.line_type_column].astype(int)
-                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 6534, in astype
-    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 414, in astype
-    return self.apply(
-           ^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 354, in apply
-    applied = getattr(b, f)(**kwargs)
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\blocks.py", line 616, in astype
-    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 238, in astype_array_safe
-    new_values = astype_array(values, dtype, copy=copy)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 183, in astype_array
-    values = _astype_nansafe(values, dtype, copy=copy)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 101, in _astype_nansafe
-    return _astype_float_to_int_nansafe(arr, dtype, copy)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 146, in _astype_float_to_int_nansafe
-    raise IntCastingNaNError(
-pandas.errors.IntCastingNaNError: Cannot convert non-finite values (NA or inf) to integer
-INFO:root:Cas: 2024-08-21 16:31:24 - STOP
+INFO:root:Cas: 2024-08-29 11:14:58 - START
+INFO:root:Cas: 2024-08-29 11:18:02 - STOP
 INFO:root:====================
-INFO:root:Cas: 2024-08-21 16:31:47 - START
-ERROR:root:An exception was thrown!
-Traceback (most recent call last):
-  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 1120, in create_file
-    gen4_from_shp.prepare_gdf()
-  File "C:\Users\Petr\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\qgis-convertshpgen4-plugin\creating_Gen4.py", line 420, in prepare_gdf
-    self.gdf_lines[self.line_type_column] = self.gdf_lines[self.line_type_column].astype(int)
-                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 6534, in astype
-    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 414, in astype
-    return self.apply(
-           ^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\managers.py", line 354, in apply
-    applied = getattr(b, f)(**kwargs)
-              ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\internals\blocks.py", line 616, in astype
-    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 238, in astype_array_safe
-    new_values = astype_array(values, dtype, copy=copy)
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 183, in astype_array
-    values = _astype_nansafe(values, dtype, copy=copy)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 101, in _astype_nansafe
-    return _astype_float_to_int_nansafe(arr, dtype, copy)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Petr\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\dtypes\astype.py", line 146, in _astype_float_to_int_nansafe
-    raise IntCastingNaNError(
-pandas.errors.IntCastingNaNError: Cannot convert non-finite values (NA or inf) to integer
-INFO:root:Cas: 2024-08-21 16:31:48 - STOP
+INFO:root:Cas: 2024-08-29 11:18:04 - START
+INFO:root:Cas: 2024-08-29 11:19:22 - STOP
 INFO:root:====================
-INFO:root:Cas: 2024-08-21 16:32:18 - START
-INFO:root:Cas: 2024-08-21 16:35:23 - STOP
+INFO:root:Cas: 2024-08-29 11:19:25 - START
+INFO:root:Cas: 2024-08-29 11:22:32 - STOP
 INFO:root:====================
-INFO:root:Cas: 2024-08-21 16:35:25 - START
-INFO:root:Cas: 2024-08-21 16:35:46 - STOP
+INFO:root:Cas: 2024-08-29 11:22:35 - START
+INFO:root:Cas: 2024-08-29 11:24:02 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 11:24:05 - START
+INFO:root:Cas: 2024-08-29 11:26:43 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 11:26:46 - START
+INFO:root:Cas: 2024-08-29 11:29:09 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 11:29:11 - START
+INFO:root:Cas: 2024-08-29 11:30:03 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 11:30:06 - START
+INFO:root:Cas: 2024-08-29 11:30:07 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 11:30:44 - START
+INFO:root:Cas: 2024-08-29 11:32:26 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 11:32:29 - START
+INFO:root:Cas: 2024-08-29 11:39:08 - STOP
+INFO:root:====================
+INFO:root:Cas: 2024-08-29 11:42:34 - START
+INFO:root:Cas: 2024-08-29 11:42:35 - STOP

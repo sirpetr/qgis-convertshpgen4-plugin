@@ -404,7 +404,8 @@ class Gen4FromShp:
         print("Unique: ", len(self.gdf_lines["ID_line"].unique()), "All: ", self.gdf_lines.shape)
         ###############
 
-        self.gdf_fields['Client'] = self.client_column
+        if 'Client' not in self.gdf_lines.columns.to_list():
+            self.gdf_fields['Client'] = self.client_column
 
         # Check if column Client, Farm, Crop is not exist
         self.gdf_fields = check_column(self.client_column, self.gdf_fields)
@@ -1140,12 +1141,12 @@ if __name__ == '__main__':
     dict_test = {
     "path_home": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin",
     "json_metadat": "gen4_scripts/base_element/version1/metadata.json",
-    "shpFields": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin/data/boundary_polygon.shp",
-    "shpGuide": "C:/Users/Petr/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/qgis-convertshpgen4-plugin/data/navigation_line.shp",
-    "clientName": "ROSTENICE 2023",
-    "farmColumn": "STREDISKO",
-    "fieldColumn": "PARCELA",
-    "cropColumn": "",
+    "shpFields": "D:/Documents/Vyzkum/JD_Geo4/_EduardoPozzato-Ital/TEST_PLUGIN/Destro_terreSx.shp",
+    "shpGuide": "D:/Documents/Vyzkum/JD_Geo4/_EduardoPozzato-Ital/TEST_PLUGIN/Linee/Test_Linee.shp",
+    "clientName": "Client",
+    "farmColumn": "Farm",
+    "fieldColumn": "Nome",
+    "cropColumn": "Crop",
     "lineColumn": "ID_str",
     "lineColumnType": "Line_type"
 }
